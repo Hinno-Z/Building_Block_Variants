@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "Concrete Slabs",
+  "key": {
+    "#": {
+      "item": "minecraft:gray_concrete"
+    }
+  },
+  "pattern": [
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "item": "variants:gray_concrete_slab"
+  },
+  "show_notification": true
+}

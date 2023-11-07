@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 6,
+  "ingredient": {
+    "item": "minecraft:gray_concrete"
+  },
+  "result": "variants:gray_concrete_slab"
+}

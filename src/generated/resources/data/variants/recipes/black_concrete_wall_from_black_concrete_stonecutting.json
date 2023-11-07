@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 6,
+  "ingredient": {
+    "item": "minecraft:black_concrete"
+  },
+  "result": "variants:black_concrete_wall"
+}
