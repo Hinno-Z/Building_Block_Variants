@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "variants:block/red_stained_clay",
+    "side": "variants:block/red_stained_clay",
+    "top": "variants:block/red_stained_clay"
+  }
+}

@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_red_terracotta": {
+    "has_terracotta": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:red_terracotta"
+              "minecraft:terracotta"
             ]
           }
         ]
@@ -22,7 +22,7 @@
   },
   "requirements": [
     [
-      "has_red_terracotta",
+      "has_terracotta",
       "has_the_recipe"
     ]
   ],

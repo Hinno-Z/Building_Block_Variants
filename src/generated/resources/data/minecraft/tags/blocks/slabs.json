@@ -32,6 +32,23 @@
     "variants:gray_terracotta_slab",
     "variants:light_gray_terracotta_slab",
     "variants:white_terracotta_slab",
-    "variants:terracotta_slab"
+    "variants:terracotta_slab",
+    "variants:pink_stained_clay_slab",
+    "variants:magenta_stained_clay_slab",
+    "variants:purple_stained_clay_slab",
+    "variants:blue_stained_clay_slab",
+    "variants:light_blue_stained_clay_slab",
+    "variants:cyan_stained_clay_slab",
+    "variants:green_stained_clay_slab",
+    "variants:lime_stained_clay_slab",
+    "variants:yellow_stained_clay_slab",
+    "variants:orange_stained_clay_slab",
+    "variants:red_stained_clay_slab",
+    "variants:brown_stained_clay_slab",
+    "variants:black_stained_clay_slab",
+    "variants:gray_stained_clay_slab",
+    "variants:light_gray_stained_clay_slab",
+    "variants:white_stained_clay_slab",
+    "variants:clay_slab"
   ]
 }

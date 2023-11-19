@@ -32,6 +32,23 @@
     "variants:gray_terracotta_wall",
     "variants:light_gray_terracotta_wall",
     "variants:white_terracotta_wall",
-    "variants:terracotta_wall"
+    "variants:terracotta_wall",
+    "variants:pink_stained_clay_wall",
+    "variants:magenta_stained_clay_wall",
+    "variants:purple_stained_clay_wall",
+    "variants:blue_stained_clay_wall",
+    "variants:light_blue_stained_clay_wall",
+    "variants:cyan_stained_clay_wall",
+    "variants:green_stained_clay_wall",
+    "variants:lime_stained_clay_wall",
+    "variants:yellow_stained_clay_wall",
+    "variants:orange_stained_clay_wall",
+    "variants:red_stained_clay_wall",
+    "variants:brown_stained_clay_wall",
+    "variants:black_stained_clay_wall",
+    "variants:gray_stained_clay_wall",
+    "variants:light_gray_stained_clay_wall",
+    "variants:white_stained_clay_wall",
+    "variants:clay_wall"
   ]
 }

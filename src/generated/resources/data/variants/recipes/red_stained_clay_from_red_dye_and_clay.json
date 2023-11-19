@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "stained_clay",
+  "key": {
+    "#": {
+      "item": "minecraft:clay"
+    },
+    "X": {
+      "item": "minecraft:red_dye"
+    }
+  },
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "result": {
+    "count": 8,
+    "item": "variants:red_stained_clay"
+  },
+  "show_notification": true
+}

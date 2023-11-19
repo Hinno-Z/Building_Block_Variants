@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "variants:block/light_blue_stained_clay",
+    "side": "variants:block/light_blue_stained_clay",
+    "top": "variants:block/light_blue_stained_clay"
+  }
+}

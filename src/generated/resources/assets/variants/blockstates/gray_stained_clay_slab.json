@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "variants:block/gray_stained_clay_slab"
+    },
+    "type=double": {
+      "model": "variants:block/gray_stained_clay"
+    },
+    "type=top": {
+      "model": "variants:block/gray_stained_clay_slab_top"
+    }
+  }
+}

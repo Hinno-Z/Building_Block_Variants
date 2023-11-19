@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "Clay Slabs",
+  "key": {
+    "#": {
+      "item": "minecraft:clay"
+    }
+  },
+  "pattern": [
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "item": "variants:clay_slab"
+  },
+  "show_notification": true
+}

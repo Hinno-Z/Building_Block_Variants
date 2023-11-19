@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "variants:block/magenta_stained_clay",
+    "side": "variants:block/magenta_stained_clay",
+    "top": "variants:block/magenta_stained_clay"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "Clay Stairs",
+  "key": {
+    "#": {
+      "item": "variants:red_stained_clay"
+    }
+  },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 4,
+    "item": "variants:red_stained_clay_stairs"
+  },
+  "show_notification": true
+}

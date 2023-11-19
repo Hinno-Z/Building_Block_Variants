@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "Clay Slabs",
+  "key": {
+    "#": {
+      "item": "variants:light_gray_stained_clay"
+    }
+  },
+  "pattern": [
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "item": "variants:light_gray_stained_clay_slab"
+  },
+  "show_notification": true
+}
