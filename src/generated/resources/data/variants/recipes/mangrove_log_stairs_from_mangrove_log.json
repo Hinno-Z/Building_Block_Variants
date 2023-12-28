@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "Log Stairs",
+  "key": {
+    "#": {
+      "item": "minecraft:mangrove_log"
+    }
+  },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 4,
+    "item": "variants:mangrove_log_stairs"
+  },
+  "show_notification": true
+}

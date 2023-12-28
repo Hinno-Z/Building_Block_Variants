@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "Log Walls",
+  "key": {
+    "#": {
+      "item": "minecraft:stripped_dark_oak_log"
+    },
+    "X": {
+      "item": "minecraft:dark_oak_log"
+    }
+  },
+  "pattern": [
+    "#X#",
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "item": "variants:stripped_dark_oak_log_wall"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "Plank Walls",
+  "key": {
+    "#": {
+      "item": "minecraft:warped_planks"
+    },
+    "X": {
+      "item": "minecraft:warped_stem"
+    }
+  },
+  "pattern": [
+    "#X#",
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "item": "variants:warped_planks_wall"
+  },
+  "show_notification": true
+}

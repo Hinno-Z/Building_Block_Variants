@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "Log Walls",
+  "key": {
+    "#": {
+      "item": "minecraft:crimson_stem"
+    },
+    "X": {
+      "item": "minecraft:crimson_planks"
+    }
+  },
+  "pattern": [
+    "#X#",
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "item": "variants:crimson_stem_wall"
+  },
+  "show_notification": true
+}

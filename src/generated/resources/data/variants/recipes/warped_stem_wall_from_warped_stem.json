@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "Log Walls",
+  "key": {
+    "#": {
+      "item": "minecraft:warped_stem"
+    },
+    "X": {
+      "item": "minecraft:warped_planks"
+    }
+  },
+  "pattern": [
+    "#X#",
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "item": "variants:warped_stem_wall"
+  },
+  "show_notification": true
+}

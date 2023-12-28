@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "Log Walls",
+  "key": {
+    "#": {
+      "item": "minecraft:stripped_mangrove_log"
+    },
+    "X": {
+      "item": "minecraft:mangrove_log"
+    }
+  },
+  "pattern": [
+    "#X#",
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "item": "variants:stripped_mangrove_log_wall"
+  },
+  "show_notification": true
+}

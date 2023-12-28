@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "Log Stairs",
+  "key": {
+    "#": {
+      "item": "minecraft:stripped_bamboo_block"
+    }
+  },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 4,
+    "item": "variants:stripped_bamboo_block_stairs"
+  },
+  "show_notification": true
+}

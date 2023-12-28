@@ -49,6 +49,26 @@
     "variants:gray_stained_clay_stairs",
     "variants:light_gray_stained_clay_stairs",
     "variants:white_stained_clay_stairs",
-    "variants:clay_stairs"
+    "variants:clay_stairs",
+    "variants:oak_log_stairs",
+    "variants:stripped_oak_log_stairs",
+    "variants:birch_log_stairs",
+    "variants:stripped_birch_log_stairs",
+    "variants:spruce_log_stairs",
+    "variants:stripped_spruce_log_stairs",
+    "variants:dark_oak_log_stairs",
+    "variants:stripped_dark_oak_log_stairs",
+    "variants:acacia_log_stairs",
+    "variants:stripped_acacia_log_stairs",
+    "variants:jungle_log_stairs",
+    "variants:stripped_jungle_log_stairs",
+    "variants:mangrove_log_stairs",
+    "variants:stripped_mangrove_log_stairs",
+    "variants:bamboo_block_stairs",
+    "variants:stripped_bamboo_block_stairs",
+    "variants:warped_stem_stairs",
+    "variants:stripped_warped_stem_stairs",
+    "variants:crimson_stem_stairs",
+    "variants:stripped_crimson_stem_stairs"
   ]
 }

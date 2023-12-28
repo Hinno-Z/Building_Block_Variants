@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "Log Walls",
+  "key": {
+    "#": {
+      "item": "minecraft:bamboo_block"
+    },
+    "X": {
+      "item": "minecraft:bamboo_planks"
+    }
+  },
+  "pattern": [
+    "#X#",
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "item": "variants:bamboo_block_wall"
+  },
+  "show_notification": true
+}

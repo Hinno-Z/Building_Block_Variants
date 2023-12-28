@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "Log Stairs",
+  "key": {
+    "#": {
+      "item": "minecraft:stripped_spruce_log"
+    }
+  },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 4,
+    "item": "variants:stripped_spruce_log_stairs"
+  },
+  "show_notification": true
+}

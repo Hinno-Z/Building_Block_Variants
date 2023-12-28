@@ -1,12 +1,14 @@
 package net.hinno.variants.datagen;
 
+import net.hinno.variants.block.modClayBlocks;
 import net.hinno.variants.block.modConcreteBlocks;
 import net.hinno.variants.block.modTerracottaBlocks;
-import net.hinno.variants.block.modClayBlocks;
+import net.hinno.variants.block.modWoodBlocks;
 import net.hinno.variants.variants;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.*;
+import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.client.model.generators.BlockModelBuilder;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
@@ -241,10 +243,80 @@ public class modBlockStateGenerator extends BlockStateProvider {
         stairsBlock ((StairBlock) modClayBlocks.PINK_CLAY_STAIRS.get (), blockTexture (modClayBlocks.PINK_CLAY.get ()));
         slabBlock ((SlabBlock) modClayBlocks.PINK_CLAY_SLAB.get (), blockTexture (modClayBlocks.PINK_CLAY.get ()), blockTexture (modClayBlocks.PINK_CLAY.get ()));
         modWallBlock ((WallBlock) modClayBlocks.PINK_CLAY_WALL.get (),blockTexture (modClayBlocks.PINK_CLAY.get ()));
+
+        //wood wall blocks
+        modWallBlock ((WallBlock) modWoodBlocks.OAK_PLANKS_WALL.get (),blockTexture (Blocks.OAK_PLANKS));
+        modWallBlock ((WallBlock) modWoodBlocks.OAK_LOG_WALL.get (), ResourceLocation.tryParse ("minecraft:block/oak_log"));
+        modWallBlock ((WallBlock) modWoodBlocks.STRIPPED_OAK_LOG_WALL.get (),ResourceLocation.tryParse ("minecraft:block/stripped_oak_log"));
+
+        modWallBlock ((WallBlock) modWoodBlocks.BIRCH_PLANKS_WALL .get (),blockTexture (Blocks.  BIRCH_PLANKS ));
+        modWallBlock ((WallBlock) modWoodBlocks.BIRCH_LOG_WALL.get (),ResourceLocation.tryParse ("minecraft:block/birch_log"));
+        modWallBlock ((WallBlock) modWoodBlocks.STRIPPED_BIRCH_LOG_WALL.get (),ResourceLocation.tryParse ("minecraft:block/stripped_birch_log"));
+
+        modWallBlock ((WallBlock) modWoodBlocks.SPRUCE_PLANKS_WALL.get (),blockTexture (Blocks.SPRUCE_PLANKS));
+        modWallBlock ((WallBlock) modWoodBlocks.SPRUCE_LOG_WALL.get (),ResourceLocation.tryParse ("minecraft:block/spruce_log"));
+        modWallBlock ((WallBlock) modWoodBlocks.STRIPPED_SPRUCE_LOG_WALL.get (),ResourceLocation.tryParse ("minecraft:block/stripped_spruce_log"));
+
+        modWallBlock ((WallBlock) modWoodBlocks.DARK_OAK_PLANKS_WALL.get (),blockTexture (Blocks.DARK_OAK_PLANKS));
+        modWallBlock ((WallBlock) modWoodBlocks.DARK_OAK_LOG_WALL.get (),ResourceLocation.tryParse ("minecraft:block/dark_oak_log"));
+        modWallBlock ((WallBlock) modWoodBlocks.STRIPPED_DARK_OAK_LOG_WALL.get (),ResourceLocation.tryParse ("minecraft:block/stripped_dark_oak_log"));
+
+        modWallBlock ((WallBlock) modWoodBlocks.ACACIA_PLANKS_WALL .get (),blockTexture (Blocks.ACACIA_PLANKS ));
+        modWallBlock ((WallBlock) modWoodBlocks.ACACIA_LOG_WALL.get (), ResourceLocation.tryParse ("minecraft:block/acacia_log"));
+        modWallBlock ((WallBlock) modWoodBlocks.STRIPPED_ACACIA_LOG_WALL.get (), ResourceLocation.tryParse ("minecraft:block/stripped_acacia_log"));
+
+        modWallBlock ((WallBlock) modWoodBlocks.JUNGLE_PLANKS_WALL.get (),blockTexture (Blocks.JUNGLE_PLANKS));
+        modWallBlock ((WallBlock) modWoodBlocks.JUNGLE_LOG_WALL.get (), ResourceLocation.tryParse ("minecraft:block/jungle_log"));
+        modWallBlock ((WallBlock) modWoodBlocks.STRIPPED_JUNGLE_LOG_WALL.get (), ResourceLocation.tryParse ("minecraft:block/stripped_jungle_log"));
+
+        modWallBlock ((WallBlock) modWoodBlocks.MANGROVE_PLANKS_WALL.get (),blockTexture (Blocks.MANGROVE_PLANKS));
+        modWallBlock ((WallBlock) modWoodBlocks.MANGROVE_LOG_WALL.get (), ResourceLocation.tryParse ("minecraft:block/mangrove_log"));
+        modWallBlock ((WallBlock) modWoodBlocks.STRIPPED_MANGROVE_LOG_WALL.get (), ResourceLocation.tryParse ("minecraft:block/stripped_mangrove_log"));
+
+        modWallBlock ((WallBlock) modWoodBlocks.BAMBOO_PLANKS_WALL.get (),blockTexture (Blocks.BAMBOO_PLANKS));
+        modWallBlock ((WallBlock) modWoodBlocks.BAMBOO_BLOCK_WALL.get (),  ResourceLocation.tryParse ("minecraft:block/bamboo_block"));
+        modWallBlock ((WallBlock) modWoodBlocks.STRIPPED_BAMBOO_BLOCK_WALL.get (),  ResourceLocation.tryParse ("minecraft:block/stripped_bamboo_block"));
+
+        modWallBlock ((WallBlock) modWoodBlocks.WARPED_PLANKS_WALL.get (),blockTexture (Blocks.WARPED_PLANKS));
+        modWallBlock ((WallBlock) modWoodBlocks.WARPED_STEM_WALL.get (),  ResourceLocation.tryParse ("minecraft:block/warped_stem"));
+        modWallBlock ((WallBlock) modWoodBlocks.STRIPPED_WARPED_STEM_WALL.get (),  ResourceLocation.tryParse ("minecraft:block/stripped_warped_stem"));
+
+        modWallBlock ((WallBlock) modWoodBlocks.CRIMSON_PLANKS_WALL.get (),blockTexture (Blocks.CRIMSON_PLANKS));
+        modWallBlock ((WallBlock) modWoodBlocks.CRIMSON_STEM_WALL.get (),  ResourceLocation.tryParse ("minecraft:block/crimson_stem"));
+        modWallBlock ((WallBlock) modWoodBlocks.STRIPPED_CRIMSON_STEM_WALL.get (),  ResourceLocation.tryParse ("minecraft:block/stripped_crimson_stem"));
+
+        //Log stairs blocks
+        stairsBlock ((StairBlock) modWoodBlocks.OAK_LOG_STAIRS.get (), ResourceLocation.tryParse ("minecraft:block/oak_log"));
+        stairsBlock ((StairBlock) modWoodBlocks.STRIPPED_OAK_LOG_STAIRS.get (), ResourceLocation.tryParse ("minecraft:block/stripped_oak_log"));
+
+        stairsBlock ((StairBlock) modWoodBlocks.BIRCH_LOG_STAIRS.get (),ResourceLocation.tryParse ("minecraft:block/birch_log"));
+        stairsBlock ((StairBlock) modWoodBlocks.STRIPPED_BIRCH_LOG_STAIRS.get (),ResourceLocation.tryParse ("minecraft:block/stripped_birch_log"));
+
+        stairsBlock ((StairBlock)modWoodBlocks.SPRUCE_LOG_STAIRS.get (),ResourceLocation.tryParse ("minecraft:block/spruce_log"));
+        stairsBlock ((StairBlock)modWoodBlocks.STRIPPED_SPRUCE_LOG_STAIRS.get (),ResourceLocation.tryParse ("minecraft:block/stripped_spruce_log"));
+
+        stairsBlock ((StairBlock)modWoodBlocks.DARK_OAK_LOG_STAIRS.get (),ResourceLocation.tryParse ("minecraft:block/dark_oak_log"));
+        stairsBlock ((StairBlock)modWoodBlocks.STRIPPED_DARK_OAK_LOG_STAIRS.get (),ResourceLocation.tryParse ("minecraft:block/stripped_dark_oak_log"));
+
+        stairsBlock ((StairBlock)modWoodBlocks.ACACIA_LOG_STAIRS.get (), ResourceLocation.tryParse ("minecraft:block/acacia_log"));
+        stairsBlock ((StairBlock) modWoodBlocks.STRIPPED_ACACIA_LOG_STAIRS.get (), ResourceLocation.tryParse ("minecraft:block/stripped_acacia_log"));
+
+        stairsBlock ((StairBlock) modWoodBlocks.JUNGLE_LOG_STAIRS.get (), ResourceLocation.tryParse ("minecraft:block/jungle_log"));
+        stairsBlock ((StairBlock) modWoodBlocks.STRIPPED_JUNGLE_LOG_STAIRS.get (), ResourceLocation.tryParse ("minecraft:block/stripped_jungle_log"));
+
+        stairsBlock ((StairBlock) modWoodBlocks.MANGROVE_LOG_STAIRS.get (), ResourceLocation.tryParse ("minecraft:block/mangrove_log"));
+        stairsBlock ((StairBlock) modWoodBlocks.STRIPPED_MANGROVE_LOG_STAIRS.get (), ResourceLocation.tryParse ("minecraft:block/stripped_mangrove_log"));
+
+        stairsBlock ((StairBlock) modWoodBlocks.BAMBOO_BLOCK_STAIRS.get (),  ResourceLocation.tryParse ("minecraft:block/bamboo_block"));
+        stairsBlock ((StairBlock) modWoodBlocks.STRIPPED_BAMBOO_BLOCK_STAIRS.get (),  ResourceLocation.tryParse ("minecraft:block/stripped_bamboo_block"));
+
+        stairsBlock ((StairBlock) modWoodBlocks.WARPED_STEM_STAIRS.get (),  ResourceLocation.tryParse ("minecraft:block/warped_stem"));
+        stairsBlock ((StairBlock) modWoodBlocks.STRIPPED_WARPED_STEM_STAIRS.get (),  ResourceLocation.tryParse ("minecraft:block/stripped_warped_stem"));
+
+        stairsBlock ((StairBlock) modWoodBlocks.CRIMSON_STEM_STAIRS.get (),  ResourceLocation.tryParse ("minecraft:block/crimson_stem"));
+        stairsBlock ((StairBlock) modWoodBlocks.STRIPPED_CRIMSON_STEM_STAIRS.get (),  ResourceLocation.tryParse ("minecraft:block/stripped_crimson_stem"));
+
     }
-
-
-    
 
     public BlockModelBuilder modWallBlock(WallBlock block, ResourceLocation texture){
         wallBlock(block, Objects.requireNonNull (ForgeRegistries.BLOCKS.getKey (block)).getPath(), texture);
