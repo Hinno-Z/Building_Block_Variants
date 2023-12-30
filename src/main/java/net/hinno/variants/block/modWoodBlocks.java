@@ -64,6 +64,17 @@ public class modWoodBlocks {
     public static final RegistryObject<Block> STRIPPED_DARK_OAK_LOG_STAIRS = registerBlock ("stripped_dark_oak_log_stairs",
             () -> new StairBlock (Blocks.DARK_OAK_PLANKS::defaultBlockState, BlockBehaviour.Properties.copy (Blocks.DARK_OAK_PLANKS)));
 
+    public static final RegistryObject<Block> CHERRY_PLANKS_WALL = registerBlock ("cherry_planks_wall",
+            () -> new WallBlock (BlockBehaviour.Properties.copy (Blocks. CHERRY_PLANKS)));
+    public static final RegistryObject<Block> CHERRY_LOG_WALL = registerBlock ("cherry_log_wall",
+            () -> new WallBlock (BlockBehaviour.Properties.copy (Blocks.CHERRY_PLANKS)));
+    public static final RegistryObject<Block> STRIPPED_CHERRY_LOG_WALL = registerBlock ("stripped_cherry_log_wall",
+            () -> new WallBlock (BlockBehaviour.Properties.copy (Blocks. CHERRY_PLANKS)));
+    public static final RegistryObject<Block> CHERRY_LOG_STAIRS = registerBlock ("cherry_log_stairs",
+            () -> new StairBlock (Blocks.CHERRY_PLANKS::defaultBlockState, BlockBehaviour.Properties.copy (Blocks. CHERRY_PLANKS)));
+    public static final RegistryObject<Block> STRIPPED_CHERRY_LOG_STAIRS = registerBlock ("stripped_cherry_log_stairs",
+            () -> new StairBlock (Blocks.CHERRY_PLANKS::defaultBlockState, BlockBehaviour.Properties.copy (Blocks. CHERRY_PLANKS)));
+
     public static final RegistryObject<Block> ACACIA_PLANKS_WALL = registerBlock ("acacia_planks_wall",
             () -> new WallBlock (BlockBehaviour.Properties.copy (Blocks.ACACIA_PLANKS)));
     public static final RegistryObject<Block> ACACIA_LOG_WALL = registerBlock ("acacia_log_wall",

@@ -231,6 +231,12 @@
   "block.variants.mangrove_log_stairs" : "Mangrove Log Stairs",
   "block.variants.stripped_mangrove_log_stairs" : "Stripped Mangrove Log Stairs",
 
+  "block.variants.cherry_planks_wall" : "Cherry Planks Wall",
+  "block.variants.cherry_log_wall" : "Cherry Log Wall",
+  "block.variants.stripped_cherry_log_wall" : "Stripped Cherry Log Wall",
+  "block.variants.cherry_log_stairs" : "Cherry Log Stairs",
+  "block.variants.stripped_cherry_log_stairs" : "Stripped Cherry Log Stairs",
+
   "block.variants.bamboo_planks_wall" : "Bamboo Planks Wall",
   "block.variants.bamboo_block_wall" : "Bamboo Block Wall",
   "block.variants.stripped_bamboo_block_wall" : "Stripped Bamboo Block Wall",

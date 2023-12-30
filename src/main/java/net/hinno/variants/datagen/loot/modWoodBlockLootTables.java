@@ -32,6 +32,10 @@ public class modWoodBlockLootTables extends BlockLootSubProvider {
         this.dropSelf (modWoodBlocks.DARK_OAK_LOG_WALL.get ());  this.dropSelf (modWoodBlocks.DARK_OAK_LOG_STAIRS.get ());
         this.dropSelf (modWoodBlocks.STRIPPED_DARK_OAK_LOG_WALL.get ());  this.dropSelf (modWoodBlocks.STRIPPED_DARK_OAK_LOG_STAIRS.get ());
 
+        this.dropSelf (modWoodBlocks.CHERRY_PLANKS_WALL.get ());
+        this.dropSelf (modWoodBlocks.CHERRY_LOG_WALL.get ());  this.dropSelf (modWoodBlocks.CHERRY_LOG_STAIRS.get ());
+        this.dropSelf (modWoodBlocks.STRIPPED_CHERRY_LOG_WALL.get ());  this.dropSelf (modWoodBlocks.STRIPPED_CHERRY_LOG_STAIRS.get ());
+
         this.dropSelf (modWoodBlocks.ACACIA_PLANKS_WALL.get ());
         this.dropSelf (modWoodBlocks.ACACIA_LOG_WALL.get ());  this.dropSelf (modWoodBlocks.ACACIA_LOG_STAIRS.get ());
         this.dropSelf (modWoodBlocks.STRIPPED_ACACIA_LOG_WALL.get ());  this.dropSelf (modWoodBlocks.STRIPPED_ACACIA_LOG_STAIRS.get ());

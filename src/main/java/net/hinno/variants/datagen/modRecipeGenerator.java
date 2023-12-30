@@ -270,6 +270,12 @@ public class modRecipeGenerator extends RecipeProvider implements IConditionBuil
         blockToStairs (pWriter, Blocks.DARK_OAK_LOG, modWoodBlocks.DARK_OAK_LOG_STAIRS.get (), Blocks.DARK_OAK_PLANKS, "Log Stairs");
         blockToStairs (pWriter, Blocks.STRIPPED_DARK_OAK_LOG,  modWoodBlocks.STRIPPED_DARK_OAK_LOG_STAIRS.get (), Blocks.DARK_OAK_LOG,"Log Stairs");
 
+        woodWall (pWriter, Blocks.CHERRY_PLANKS, Blocks.CHERRY_LOG, modWoodBlocks.CHERRY_PLANKS_WALL.get (), "Plank Walls");
+        woodWall (pWriter, Blocks.CHERRY_LOG, Blocks.CHERRY_PLANKS, modWoodBlocks.CHERRY_LOG_WALL.get (), "Log Walls");
+        woodWall (pWriter, Blocks.STRIPPED_CHERRY_LOG, Blocks.CHERRY_LOG,  modWoodBlocks.STRIPPED_CHERRY_LOG_WALL.get (), "Log Walls");
+        blockToStairs (pWriter, Blocks.CHERRY_LOG, modWoodBlocks.CHERRY_LOG_STAIRS.get (), Blocks.CHERRY_PLANKS, "Log Stairs");
+        blockToStairs (pWriter, Blocks.STRIPPED_CHERRY_LOG,  modWoodBlocks.STRIPPED_CHERRY_LOG_STAIRS.get (), Blocks.CHERRY_LOG,"Log Stairs");
+
         woodWall (pWriter, Blocks.ACACIA_PLANKS, Blocks.ACACIA_LOG, modWoodBlocks.ACACIA_PLANKS_WALL.get (), "Plank Walls");
         woodWall (pWriter, Blocks.ACACIA_LOG, Blocks.ACACIA_PLANKS, modWoodBlocks.ACACIA_LOG_WALL.get (), "Log Walls");
         woodWall (pWriter, Blocks.STRIPPED_ACACIA_LOG, Blocks.ACACIA_LOG, modWoodBlocks.STRIPPED_ACACIA_LOG_WALL.get (), "Log Walls");

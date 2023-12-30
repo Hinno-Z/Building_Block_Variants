@@ -116,6 +116,7 @@ public class modItemModelGenerator extends ItemModelProvider {
         WallBlockItem(modWoodBlocks.BIRCH_PLANKS_WALL);  WallBlockItem(modWoodBlocks.BIRCH_LOG_WALL);  WallBlockItem(modWoodBlocks.STRIPPED_BIRCH_LOG_WALL);
         WallBlockItem(modWoodBlocks.SPRUCE_PLANKS_WALL);  WallBlockItem(modWoodBlocks.SPRUCE_LOG_WALL);  WallBlockItem(modWoodBlocks.STRIPPED_SPRUCE_LOG_WALL);
         WallBlockItem(modWoodBlocks.DARK_OAK_PLANKS_WALL);  WallBlockItem(modWoodBlocks.DARK_OAK_LOG_WALL);  WallBlockItem(modWoodBlocks.STRIPPED_DARK_OAK_LOG_WALL);
+        WallBlockItem(modWoodBlocks.CHERRY_PLANKS_WALL);  WallBlockItem(modWoodBlocks.CHERRY_LOG_WALL);  WallBlockItem(modWoodBlocks.STRIPPED_CHERRY_LOG_WALL);
         WallBlockItem(modWoodBlocks.ACACIA_PLANKS_WALL);  WallBlockItem(modWoodBlocks.ACACIA_LOG_WALL);  WallBlockItem(modWoodBlocks.STRIPPED_ACACIA_LOG_WALL);
         WallBlockItem(modWoodBlocks.JUNGLE_PLANKS_WALL);  WallBlockItem(modWoodBlocks.JUNGLE_LOG_WALL);  WallBlockItem(modWoodBlocks.STRIPPED_JUNGLE_LOG_WALL);
         WallBlockItem(modWoodBlocks.MANGROVE_PLANKS_WALL);  WallBlockItem(modWoodBlocks.MANGROVE_LOG_WALL);  WallBlockItem(modWoodBlocks.STRIPPED_MANGROVE_LOG_WALL);
@@ -127,6 +128,7 @@ public class modItemModelGenerator extends ItemModelProvider {
         BlockItem(modWoodBlocks.BIRCH_LOG_STAIRS);   BlockItem(modWoodBlocks.STRIPPED_BIRCH_LOG_STAIRS);
         BlockItem(modWoodBlocks.SPRUCE_LOG_STAIRS);   BlockItem(modWoodBlocks.STRIPPED_SPRUCE_LOG_STAIRS);
         BlockItem(modWoodBlocks.DARK_OAK_LOG_STAIRS);   BlockItem(modWoodBlocks.STRIPPED_DARK_OAK_LOG_STAIRS);
+        BlockItem(modWoodBlocks.CHERRY_LOG_STAIRS);   BlockItem(modWoodBlocks.STRIPPED_CHERRY_LOG_STAIRS);
         BlockItem(modWoodBlocks.ACACIA_LOG_STAIRS);   BlockItem(modWoodBlocks.STRIPPED_ACACIA_LOG_STAIRS);
         BlockItem(modWoodBlocks.JUNGLE_LOG_STAIRS);   BlockItem(modWoodBlocks.STRIPPED_JUNGLE_LOG_STAIRS);
         BlockItem(modWoodBlocks.MANGROVE_LOG_STAIRS);   BlockItem(modWoodBlocks.STRIPPED_MANGROVE_LOG_STAIRS);

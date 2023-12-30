@@ -261,6 +261,10 @@ public class modBlockStateGenerator extends BlockStateProvider {
         modWallBlock ((WallBlock) modWoodBlocks.DARK_OAK_LOG_WALL.get (),ResourceLocation.tryParse ("minecraft:block/dark_oak_log"));
         modWallBlock ((WallBlock) modWoodBlocks.STRIPPED_DARK_OAK_LOG_WALL.get (),ResourceLocation.tryParse ("minecraft:block/stripped_dark_oak_log"));
 
+        modWallBlock ((WallBlock) modWoodBlocks.CHERRY_PLANKS_WALL.get (),blockTexture (Blocks.CHERRY_PLANKS));
+        modWallBlock ((WallBlock) modWoodBlocks.CHERRY_LOG_WALL.get (),ResourceLocation.tryParse ("minecraft:block/cherry_log"));
+        modWallBlock ((WallBlock) modWoodBlocks.STRIPPED_CHERRY_LOG_WALL.get (),ResourceLocation.tryParse ("minecraft:block/stripped_cherry_log"));
+
         modWallBlock ((WallBlock) modWoodBlocks.ACACIA_PLANKS_WALL .get (),blockTexture (Blocks.ACACIA_PLANKS ));
         modWallBlock ((WallBlock) modWoodBlocks.ACACIA_LOG_WALL.get (), ResourceLocation.tryParse ("minecraft:block/acacia_log"));
         modWallBlock ((WallBlock) modWoodBlocks.STRIPPED_ACACIA_LOG_WALL.get (), ResourceLocation.tryParse ("minecraft:block/stripped_acacia_log"));
@@ -297,6 +301,9 @@ public class modBlockStateGenerator extends BlockStateProvider {
 
         stairsBlock ((StairBlock)modWoodBlocks.DARK_OAK_LOG_STAIRS.get (),ResourceLocation.tryParse ("minecraft:block/dark_oak_log"));
         stairsBlock ((StairBlock)modWoodBlocks.STRIPPED_DARK_OAK_LOG_STAIRS.get (),ResourceLocation.tryParse ("minecraft:block/stripped_dark_oak_log"));
+
+        stairsBlock ((StairBlock)modWoodBlocks.CHERRY_LOG_STAIRS.get (),ResourceLocation.tryParse ("minecraft:block/cherry_log"));
+        stairsBlock ((StairBlock)modWoodBlocks.STRIPPED_CHERRY_LOG_STAIRS.get (),ResourceLocation.tryParse ("minecraft:block/stripped_cherry_log"));
 
         stairsBlock ((StairBlock)modWoodBlocks.ACACIA_LOG_STAIRS.get (), ResourceLocation.tryParse ("minecraft:block/acacia_log"));
         stairsBlock ((StairBlock) modWoodBlocks.STRIPPED_ACACIA_LOG_STAIRS.get (), ResourceLocation.tryParse ("minecraft:block/stripped_acacia_log"));

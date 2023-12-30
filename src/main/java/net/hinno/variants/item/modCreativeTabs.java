@@ -27,7 +27,8 @@ public class modCreativeTabs {
                 () -> CreativeModeTab.builder ().icon (() -> new ItemStack (modTerracottaBlocks.RED_TERRACOTTA_STAIRS.get ()))
                         .title (Component.translatable ("creativetab.creative_tab"))
                 .displayItems ((pParameters, pOutput) -> {
-                    //fulls
+                    /*
+                      //fulls
                     pOutput.accept (modClayBlocks.WHITE_CLAY.get ()); pOutput.accept (modClayBlocks.LIGHT_GRAY_CLAY.get ());
                     pOutput.accept (modClayBlocks.GRAY_CLAY.get ()); pOutput.accept (modClayBlocks.BLACK_CLAY.get ());
                     pOutput.accept (modClayBlocks.BROWN_CLAY.get ()); pOutput.accept (modClayBlocks.BROWN_CLAY.get ());
@@ -103,15 +104,17 @@ public class modCreativeTabs {
                                //logs
                     pOutput.accept (modWoodBlocks.OAK_LOG_STAIRS.get ()); pOutput.accept (modWoodBlocks.BIRCH_LOG_STAIRS.get ());
                     pOutput.accept (modWoodBlocks.SPRUCE_LOG_STAIRS.get ()); pOutput.accept  (modWoodBlocks.DARK_OAK_LOG_STAIRS.get ());
-                    pOutput.accept (modWoodBlocks.ACACIA_LOG_STAIRS.get ()); pOutput.accept (modWoodBlocks.JUNGLE_LOG_STAIRS.get ());
-                    pOutput.accept (modWoodBlocks.MANGROVE_LOG_STAIRS.get ()); pOutput.accept (modWoodBlocks.BAMBOO_BLOCK_STAIRS.get ());
-                    pOutput.accept (modWoodBlocks.WARPED_STEM_STAIRS.get ()); pOutput.accept (modWoodBlocks.CRIMSON_STEM_STAIRS.get ());
+                    pOutput.accept  (modWoodBlocks.CHERRY_LOG_STAIRS.get ()); pOutput.accept (modWoodBlocks.ACACIA_LOG_STAIRS.get ());
+                    pOutput.accept (modWoodBlocks.JUNGLE_LOG_STAIRS.get ()); pOutput.accept (modWoodBlocks.MANGROVE_LOG_STAIRS.get ());
+                    pOutput.accept (modWoodBlocks.BAMBOO_BLOCK_STAIRS.get ()); pOutput.accept (modWoodBlocks.WARPED_STEM_STAIRS.get ());
+                    pOutput.accept (modWoodBlocks.CRIMSON_STEM_STAIRS.get ());
                             //stripped logs
                     pOutput.accept (modWoodBlocks.STRIPPED_OAK_LOG_STAIRS.get ()); pOutput.accept (modWoodBlocks.STRIPPED_BIRCH_LOG_STAIRS.get ());
                     pOutput.accept (modWoodBlocks.STRIPPED_SPRUCE_LOG_STAIRS.get ()); pOutput.accept (modWoodBlocks.STRIPPED_DARK_OAK_LOG_STAIRS.get ());
-                    pOutput.accept (modWoodBlocks.STRIPPED_ACACIA_LOG_STAIRS.get ()); pOutput.accept (modWoodBlocks.STRIPPED_JUNGLE_LOG_STAIRS.get ());
-                    pOutput.accept (modWoodBlocks.STRIPPED_MANGROVE_LOG_STAIRS.get ()); pOutput.accept (modWoodBlocks.STRIPPED_BAMBOO_BLOCK_STAIRS.get ());
-                    pOutput.accept (modWoodBlocks.STRIPPED_WARPED_STEM_STAIRS.get ()); pOutput.accept (modWoodBlocks.STRIPPED_CRIMSON_STEM_STAIRS.get ());
+                    pOutput.accept (modWoodBlocks.STRIPPED_CHERRY_LOG_STAIRS.get ()); pOutput.accept (modWoodBlocks.STRIPPED_ACACIA_LOG_STAIRS.get ());
+                    pOutput.accept (modWoodBlocks.STRIPPED_JUNGLE_LOG_STAIRS.get ()); pOutput.accept (modWoodBlocks.STRIPPED_MANGROVE_LOG_STAIRS.get ());
+                    pOutput.accept (modWoodBlocks.STRIPPED_BAMBOO_BLOCK_STAIRS.get ()); pOutput.accept (modWoodBlocks.STRIPPED_WARPED_STEM_STAIRS.get ());
+                    pOutput.accept (modWoodBlocks.STRIPPED_CRIMSON_STEM_STAIRS.get ());
 
                     //walls
                             //concretes
@@ -147,23 +150,26 @@ public class modCreativeTabs {
                                 //planks
                     pOutput.accept (modWoodBlocks.OAK_PLANKS_WALL.get ()); pOutput.accept (modWoodBlocks.BIRCH_PLANKS_WALL.get ());
                     pOutput.accept (modWoodBlocks.SPRUCE_PLANKS_WALL.get ()); pOutput.accept (modWoodBlocks.DARK_OAK_PLANKS_WALL.get ());
-                    pOutput.accept (modWoodBlocks.ACACIA_PLANKS_WALL.get ()); pOutput.accept (modWoodBlocks.JUNGLE_PLANKS_WALL.get ());
-                    pOutput.accept (modWoodBlocks.MANGROVE_PLANKS_WALL.get ()); pOutput.accept (modWoodBlocks.BAMBOO_PLANKS_WALL.get ());
-                    pOutput.accept (modWoodBlocks.WARPED_PLANKS_WALL.get ()); pOutput.accept (modWoodBlocks.CRIMSON_PLANKS_WALL.get ());
+                    pOutput.accept (modWoodBlocks.CHERRY_PLANKS_WALL.get ());pOutput.accept (modWoodBlocks.ACACIA_PLANKS_WALL.get ());
+                    pOutput.accept (modWoodBlocks.JUNGLE_PLANKS_WALL.get ());pOutput.accept (modWoodBlocks.MANGROVE_PLANKS_WALL.get ());
+                    pOutput.accept (modWoodBlocks.BAMBOO_PLANKS_WALL.get ());pOutput.accept (modWoodBlocks.WARPED_PLANKS_WALL.get ());
+                    pOutput.accept (modWoodBlocks.CRIMSON_PLANKS_WALL.get ());
                                 //logs
                     pOutput.accept (modWoodBlocks.OAK_LOG_WALL.get ()); pOutput.accept (modWoodBlocks.BIRCH_LOG_WALL.get ());
                     pOutput.accept (modWoodBlocks.SPRUCE_LOG_WALL.get ()); pOutput.accept  (modWoodBlocks.DARK_OAK_LOG_WALL.get ());
-                    pOutput.accept (modWoodBlocks.ACACIA_LOG_WALL.get ()); pOutput.accept (modWoodBlocks.JUNGLE_LOG_WALL.get ());
-                    pOutput.accept (modWoodBlocks.MANGROVE_LOG_WALL.get ()); pOutput.accept (modWoodBlocks.BAMBOO_BLOCK_WALL.get ());
-                    pOutput.accept (modWoodBlocks.WARPED_STEM_WALL.get ()); pOutput.accept (modWoodBlocks.CRIMSON_STEM_WALL.get ());
+                    pOutput.accept (modWoodBlocks.CHERRY_LOG_WALL.get ()); pOutput.accept (modWoodBlocks.ACACIA_LOG_WALL.get ());
+                    pOutput.accept (modWoodBlocks.JUNGLE_LOG_WALL.get ()); pOutput.accept (modWoodBlocks.MANGROVE_LOG_WALL.get ());
+                    pOutput.accept (modWoodBlocks.BAMBOO_BLOCK_WALL.get ()); pOutput.accept (modWoodBlocks.WARPED_STEM_WALL.get ());
+                    pOutput.accept (modWoodBlocks.CRIMSON_STEM_WALL.get ());
                                 //stripped logs
                     pOutput.accept (modWoodBlocks.STRIPPED_OAK_LOG_WALL.get ()); pOutput.accept (modWoodBlocks.STRIPPED_BIRCH_LOG_WALL.get ());
                     pOutput.accept (modWoodBlocks.STRIPPED_SPRUCE_LOG_WALL.get ()); pOutput.accept (modWoodBlocks.STRIPPED_DARK_OAK_LOG_WALL.get ());
-                    pOutput.accept (modWoodBlocks.STRIPPED_ACACIA_LOG_WALL.get ()); pOutput.accept (modWoodBlocks.STRIPPED_JUNGLE_LOG_WALL.get ());
-                    pOutput.accept (modWoodBlocks.STRIPPED_MANGROVE_LOG_WALL.get ()); pOutput.accept (modWoodBlocks.STRIPPED_BAMBOO_BLOCK_WALL.get ());
-                    pOutput.accept (modWoodBlocks.STRIPPED_WARPED_STEM_WALL.get ()); pOutput.accept (modWoodBlocks.STRIPPED_CRIMSON_STEM_WALL.get ());
+                    pOutput.accept (modWoodBlocks.STRIPPED_CHERRY_LOG_WALL.get ()); pOutput.accept (modWoodBlocks.STRIPPED_ACACIA_LOG_WALL.get ());
+                    pOutput.accept (modWoodBlocks.STRIPPED_JUNGLE_LOG_WALL.get ()); pOutput.accept (modWoodBlocks.STRIPPED_MANGROVE_LOG_WALL.get ());
+                    pOutput.accept (modWoodBlocks.STRIPPED_BAMBOO_BLOCK_WALL.get ()); pOutput.accept (modWoodBlocks.STRIPPED_WARPED_STEM_WALL.get ());
+                    pOutput.accept (modWoodBlocks.STRIPPED_CRIMSON_STEM_WALL.get ());
 
-                    /*
+                  */
                         //concretes
                     pOutput.accept (modConcreteBlocks.WHITE_CONCRETE_STAIRS.get ());pOutput.accept (modConcreteBlocks.WHITE_CONCRETE_SLAB.get ());pOutput.accept (modConcreteBlocks.WHITE_CONCRETE_WALL.get ());
                     pOutput.accept (modConcreteBlocks.LIGHT_GRAY_CONCRETE_STAIRS.get ());pOutput.accept (modConcreteBlocks.LIGHT_GRAY_CONCRETE_SLAB.get ());pOutput.accept (modConcreteBlocks.LIGHT_GRAY_CONCRETE_WALL.get ());
@@ -229,18 +235,39 @@ public class modCreativeTabs {
                     pOutput.accept (modClayBlocks.MAGENTA_CLAY.get ()); pOutput.accept (modClayBlocks.PINK_CLAY.get ());
 
                     //woods
-                    pOutput.accept (modWoodBlocks.OAK_PLANKS_WALL.get ());   pOutput.accept (modWoodBlocks.OAK_LOG_WALL.get ());   pOutput.accept (modWoodBlocks.STRIPPED_OAK_LOG_WALL.get ());
-                    pOutput.accept  (modWoodBlocks.BIRCH_PLANKS_WALL.get ());   pOutput.accept (modWoodBlocks.BIRCH_LOG_WALL.get ());   pOutput.accept (modWoodBlocks.STRIPPED_BIRCH_LOG_WALL.get ());
-                    pOutput.accept  (modWoodBlocks.SPRUCE_PLANKS_WALL.get ());   pOutput.accept (modWoodBlocks.SPRUCE_LOG_WALL.get ());   pOutput.accept (modWoodBlocks.STRIPPED_SPRUCE_LOG_WALL.get ());
-                    pOutput.accept  (modWoodBlocks.DARK_OAK_PLANKS_WALL.get ());  pOutput.accept  (modWoodBlocks.DARK_OAK_LOG_WALL.get ());  pOutput.accept  (modWoodBlocks.STRIPPED_DARK_OAK_LOG_WALL.get ());
-                    pOutput.accept  (modWoodBlocks.ACACIA_PLANKS_WALL.get ());  pOutput.accept  (modWoodBlocks.ACACIA_LOG_WALL.get ());   pOutput.accept (modWoodBlocks.STRIPPED_ACACIA_LOG_WALL.get ());
-                    pOutput.accept  (modWoodBlocks.JUNGLE_PLANKS_WALL.get ());  pOutput.accept  (modWoodBlocks.JUNGLE_LOG_WALL.get ());   pOutput.accept (modWoodBlocks.STRIPPED_JUNGLE_LOG_WALL.get ());
-                    pOutput.accept  (modWoodBlocks.MANGROVE_PLANKS_WALL.get ());  pOutput.accept (modWoodBlocks.MANGROVE_LOG_WALL.get ());   pOutput.accept (modWoodBlocks.STRIPPED_MANGROVE_LOG_WALL.get ());
-                    pOutput.accept  (modWoodBlocks.BAMBOO_PLANKS_WALL.get ());   pOutput.accept (modWoodBlocks.BAMBOO_BLOCK_WALL.get ());   pOutput.accept (modWoodBlocks.STRIPPED_BAMBOO_BLOCK_WALL.get ());
-                    pOutput.accept  (modWoodBlocks.WARPED_PLANKS_WALL.get ());   pOutput.accept (modWoodBlocks.WARPED_STEM_WALL.get ());   pOutput.accept (modWoodBlocks.STRIPPED_WARPED_STEM_WALL.get ());
-                    pOutput.accept  (modWoodBlocks.CRIMSON_PLANKS_WALL.get ());   pOutput.accept (modWoodBlocks.CRIMSON_STEM_WALL.get ());  pOutput.accept (modWoodBlocks.STRIPPED_CRIMSON_STEM_WALL.get ());
-                */
-
+                    pOutput.accept (modWoodBlocks.OAK_LOG_STAIRS.get ()); pOutput.accept (modWoodBlocks.OAK_LOG_WALL.get ());
+                    pOutput.accept (modWoodBlocks.STRIPPED_OAK_LOG_STAIRS.get ());  pOutput.accept (modWoodBlocks.STRIPPED_OAK_LOG_WALL.get ());
+                    pOutput.accept (modWoodBlocks.OAK_PLANKS_WALL.get ());
+                    pOutput.accept (modWoodBlocks.SPRUCE_LOG_STAIRS.get ());  pOutput.accept (modWoodBlocks.SPRUCE_LOG_WALL.get ());
+                    pOutput.accept (modWoodBlocks.STRIPPED_SPRUCE_LOG_STAIRS.get ()); pOutput.accept (modWoodBlocks.STRIPPED_SPRUCE_LOG_WALL.get ());
+                    pOutput.accept  (modWoodBlocks.SPRUCE_PLANKS_WALL.get ());
+                    pOutput.accept  (modWoodBlocks.DARK_OAK_LOG_STAIRS.get ()); pOutput.accept  (modWoodBlocks.DARK_OAK_LOG_WALL.get ());
+                    pOutput.accept (modWoodBlocks.STRIPPED_DARK_OAK_LOG_STAIRS.get ()); pOutput.accept  (modWoodBlocks.STRIPPED_DARK_OAK_LOG_WALL.get ());
+                    pOutput.accept  (modWoodBlocks.DARK_OAK_PLANKS_WALL.get ());
+                    pOutput.accept (modWoodBlocks.BIRCH_LOG_STAIRS.get ()); pOutput.accept (modWoodBlocks.BIRCH_LOG_WALL.get ());
+                    pOutput.accept (modWoodBlocks.STRIPPED_BIRCH_LOG_STAIRS.get ()); pOutput.accept (modWoodBlocks.STRIPPED_BIRCH_LOG_WALL.get ());
+                    pOutput.accept  (modWoodBlocks.BIRCH_PLANKS_WALL.get ());
+                    pOutput.accept (modWoodBlocks.BAMBOO_BLOCK_STAIRS.get ()); pOutput.accept (modWoodBlocks.BAMBOO_BLOCK_WALL.get ());
+                    pOutput.accept (modWoodBlocks.STRIPPED_BAMBOO_BLOCK_STAIRS.get ()); pOutput.accept (modWoodBlocks.STRIPPED_BAMBOO_BLOCK_WALL.get ());
+                    pOutput.accept  (modWoodBlocks.BAMBOO_PLANKS_WALL.get ());
+                    pOutput.accept (modWoodBlocks.JUNGLE_LOG_STAIRS.get ()); pOutput.accept  (modWoodBlocks.JUNGLE_LOG_WALL.get ());
+                    pOutput.accept (modWoodBlocks.STRIPPED_JUNGLE_LOG_STAIRS.get ()); pOutput.accept (modWoodBlocks.STRIPPED_JUNGLE_LOG_WALL.get ());
+                    pOutput.accept  (modWoodBlocks.JUNGLE_PLANKS_WALL.get ());
+                    pOutput.accept (modWoodBlocks.ACACIA_LOG_STAIRS.get ()); pOutput.accept  (modWoodBlocks.ACACIA_LOG_WALL.get ());
+                    pOutput.accept (modWoodBlocks.STRIPPED_ACACIA_LOG_STAIRS.get ()); pOutput.accept (modWoodBlocks.STRIPPED_ACACIA_LOG_WALL.get ());
+                    pOutput.accept  (modWoodBlocks.ACACIA_PLANKS_WALL.get ());
+                    pOutput.accept  (modWoodBlocks.CHERRY_LOG_STAIRS.get ()); pOutput.accept (modWoodBlocks.CHERRY_LOG_WALL.get ());
+                    pOutput.accept (modWoodBlocks.STRIPPED_CHERRY_LOG_STAIRS.get ()); pOutput.accept (modWoodBlocks.STRIPPED_CHERRY_LOG_WALL.get ());
+                    pOutput.accept (modWoodBlocks.CHERRY_PLANKS_WALL.get ());
+                    pOutput.accept (modWoodBlocks.MANGROVE_LOG_STAIRS.get ()); pOutput.accept (modWoodBlocks.MANGROVE_LOG_WALL.get ());
+                    pOutput.accept (modWoodBlocks.STRIPPED_MANGROVE_LOG_STAIRS.get ()); pOutput.accept (modWoodBlocks.STRIPPED_MANGROVE_LOG_WALL.get ());
+                    pOutput.accept  (modWoodBlocks.MANGROVE_PLANKS_WALL.get ());
+                    pOutput.accept (modWoodBlocks.WARPED_STEM_STAIRS.get ()); pOutput.accept (modWoodBlocks.WARPED_STEM_WALL.get ());
+                    pOutput.accept (modWoodBlocks.STRIPPED_WARPED_STEM_STAIRS.get ()); pOutput.accept (modWoodBlocks.STRIPPED_WARPED_STEM_WALL.get ());
+                    pOutput.accept  (modWoodBlocks.WARPED_PLANKS_WALL.get ());
+                    pOutput.accept (modWoodBlocks.CRIMSON_STEM_STAIRS.get ()); pOutput.accept (modWoodBlocks.CRIMSON_STEM_WALL.get ());
+                    pOutput.accept (modWoodBlocks.STRIPPED_CRIMSON_STEM_STAIRS.get ()); pOutput.accept (modWoodBlocks.STRIPPED_CRIMSON_STEM_WALL.get ());
+                    pOutput.accept  (modWoodBlocks.CRIMSON_PLANKS_WALL.get ());
                 })
                 .build ()
          );
