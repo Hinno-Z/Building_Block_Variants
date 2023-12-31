@@ -109,7 +109,19 @@ public class modBlockTagGenerator extends BlockTagsProvider {
                     (modWoodBlocks.MANGROVE_LOG_STAIRS.get ()), (modWoodBlocks.STRIPPED_MANGROVE_LOG_STAIRS.get ()),
                     (modWoodBlocks.BAMBOO_BLOCK_STAIRS.get ()), (modWoodBlocks.STRIPPED_BAMBOO_BLOCK_STAIRS.get ()),
                     (modWoodBlocks.WARPED_STEM_STAIRS.get ()), (modWoodBlocks.STRIPPED_WARPED_STEM_STAIRS.get ()),
-                    (modWoodBlocks.CRIMSON_STEM_STAIRS.get ()), (modWoodBlocks.STRIPPED_CRIMSON_STEM_STAIRS.get ())
+                    (modWoodBlocks.CRIMSON_STEM_STAIRS.get ()), (modWoodBlocks.STRIPPED_CRIMSON_STEM_STAIRS.get ()),
+                        //log slabs
+                    (modWoodBlocks.OAK_LOG_SLAB.get ()), (modWoodBlocks.STRIPPED_OAK_LOG_SLAB.get ()),
+                    (modWoodBlocks.BIRCH_LOG_SLAB.get ()), (modWoodBlocks.STRIPPED_BIRCH_LOG_SLAB.get ()),
+                    (modWoodBlocks.SPRUCE_LOG_SLAB.get ()), (modWoodBlocks.STRIPPED_SPRUCE_LOG_SLAB.get ()),
+                    (modWoodBlocks.DARK_OAK_LOG_SLAB.get ()), (modWoodBlocks.STRIPPED_DARK_OAK_LOG_SLAB.get ()),
+                    (modWoodBlocks.CHERRY_LOG_SLAB.get ()), (modWoodBlocks.STRIPPED_CHERRY_LOG_SLAB.get ()),
+                    (modWoodBlocks.ACACIA_LOG_SLAB.get ()), (modWoodBlocks.STRIPPED_ACACIA_LOG_SLAB.get ()),
+                    (modWoodBlocks.JUNGLE_LOG_SLAB.get ()), (modWoodBlocks.STRIPPED_JUNGLE_LOG_SLAB.get ()),
+                    (modWoodBlocks.MANGROVE_LOG_SLAB.get ()), (modWoodBlocks.STRIPPED_MANGROVE_LOG_SLAB.get ()),
+                    (modWoodBlocks.BAMBOO_BLOCK_SLAB.get ()), (modWoodBlocks.STRIPPED_BAMBOO_BLOCK_SLAB.get ()),
+                    (modWoodBlocks.WARPED_STEM_SLAB.get ()), (modWoodBlocks.STRIPPED_WARPED_STEM_SLAB.get ()),
+                    (modWoodBlocks.CRIMSON_STEM_SLAB.get ()), (modWoodBlocks.STRIPPED_CRIMSON_STEM_SLAB.get ())
                 );
 
         this.tag (BlockTags.SLABS)
@@ -142,7 +154,19 @@ public class modBlockTagGenerator extends BlockTagsProvider {
                     (modClayBlocks.RED_CLAY_SLAB.get ()), (modClayBlocks.BROWN_CLAY_SLAB.get ()),
                     (modClayBlocks.BLACK_CLAY_SLAB.get ()), (modClayBlocks.GRAY_CLAY_SLAB.get ()),
                     (modClayBlocks.LIGHT_GRAY_CLAY_SLAB.get ()), (modClayBlocks.WHITE_CLAY_SLAB.get ()),
-                    (modClayBlocks.CLAY_SLAB.get ())
+                    (modClayBlocks.CLAY_SLAB.get ()),
+                        //logs
+                    (modWoodBlocks.OAK_LOG_SLAB.get ()), (modWoodBlocks.STRIPPED_OAK_LOG_SLAB.get ()),
+                    (modWoodBlocks.BIRCH_LOG_SLAB.get ()), (modWoodBlocks.STRIPPED_BIRCH_LOG_SLAB.get ()),
+                    (modWoodBlocks.SPRUCE_LOG_SLAB.get ()), (modWoodBlocks.STRIPPED_SPRUCE_LOG_SLAB.get ()),
+                    (modWoodBlocks.DARK_OAK_LOG_SLAB.get ()), (modWoodBlocks.STRIPPED_DARK_OAK_LOG_SLAB.get ()),
+                    (modWoodBlocks.CHERRY_LOG_SLAB.get ()), (modWoodBlocks.STRIPPED_CHERRY_LOG_SLAB.get ()),
+                    (modWoodBlocks.ACACIA_LOG_SLAB.get ()), (modWoodBlocks.STRIPPED_ACACIA_LOG_SLAB.get ()),
+                    (modWoodBlocks.JUNGLE_LOG_SLAB.get ()), (modWoodBlocks.STRIPPED_JUNGLE_LOG_SLAB.get ()),
+                    (modWoodBlocks.MANGROVE_LOG_SLAB.get ()), (modWoodBlocks.STRIPPED_MANGROVE_LOG_SLAB.get ()),
+                    (modWoodBlocks.BAMBOO_BLOCK_SLAB.get ()), (modWoodBlocks.STRIPPED_BAMBOO_BLOCK_SLAB.get ()),
+                    (modWoodBlocks.WARPED_STEM_SLAB.get ()), (modWoodBlocks.STRIPPED_WARPED_STEM_SLAB.get ()),
+                    (modWoodBlocks.CRIMSON_STEM_SLAB.get ()), (modWoodBlocks.STRIPPED_CRIMSON_STEM_SLAB.get ())
                 );
 
         this.tag (BlockTags.STAIRS)

@@ -89,7 +89,6 @@ public class modRecipeGenerator extends RecipeProvider implements IConditionBuil
         bothStairs (pWriter, Blocks.PINK_CONCRETE, modConcreteBlocks.PINK_CONCRETE_STAIRS.get (), Blocks.PINK_CONCRETE, "Concrete Stairs");
         bothWalls (pWriter, Blocks.PINK_CONCRETE, modConcreteBlocks.PINK_CONCRETE_WALL.get (), Blocks.PINK_CONCRETE, "Concrete Walls");
 
-
         //terracottas
         bothSlabs (pWriter, Blocks.TERRACOTTA, modTerracottaBlocks.TERRACOTTA_SLAB.get (), Blocks.TERRACOTTA, "Terracotta Slabs");
         bothStairs (pWriter, Blocks.TERRACOTTA, modTerracottaBlocks.TERRACOTTA_STAIRS.get (), Blocks.TERRACOTTA, "Terracotta Stairs");
@@ -158,7 +157,6 @@ public class modRecipeGenerator extends RecipeProvider implements IConditionBuil
         bothSlabs (pWriter, Blocks.PINK_TERRACOTTA, modTerracottaBlocks.PINK_TERRACOTTA_SLAB.get (), Blocks.TERRACOTTA, "Terracotta Slabs");
         bothStairs (pWriter, Blocks.PINK_TERRACOTTA, modTerracottaBlocks.PINK_TERRACOTTA_STAIRS.get (), Blocks.TERRACOTTA, "Terracotta Stairs");
         bothWalls (pWriter, Blocks.PINK_TERRACOTTA, modTerracottaBlocks.PINK_TERRACOTTA_WALL.get (), Blocks.TERRACOTTA, "Terracotta Walls");
-
 
         //Clays
         blockToSlab (pWriter, Blocks.CLAY, modClayBlocks.CLAY_SLAB.get (), Blocks.CLAY, "Clay Slabs");
@@ -245,72 +243,109 @@ public class modRecipeGenerator extends RecipeProvider implements IConditionBuil
         blockToStairs (pWriter, modClayBlocks.PINK_CLAY.get (), modClayBlocks.PINK_CLAY_STAIRS.get (), Blocks.CLAY, "Clay Stairs");
         blockToWall (pWriter, modClayBlocks.PINK_CLAY.get(), modClayBlocks.PINK_CLAY_WALL.get (), Blocks.CLAY, "Clay Walls");
 
-    //woods
-        woodWall (pWriter, Blocks.OAK_PLANKS, Blocks.OAK_LOG, modWoodBlocks.OAK_PLANKS_WALL.get (), "Plank Walls");
-        woodWall (pWriter, Blocks.OAK_LOG, Blocks.OAK_PLANKS, modWoodBlocks.OAK_LOG_WALL.get (), "Log Walls");
-        woodWall (pWriter, Blocks.STRIPPED_OAK_LOG, Blocks.OAK_LOG,  modWoodBlocks.STRIPPED_OAK_LOG_WALL.get (), "Log Walls");
+
+        //woods
+        blockToSlab (pWriter,  Blocks.OAK_LOG, modWoodBlocks.OAK_LOG_SLAB.get (), Blocks.OAK_LOG, "Log Slabs");
         blockToStairs(pWriter, Blocks.OAK_LOG, modWoodBlocks.OAK_LOG_STAIRS.get (), Blocks.OAK_PLANKS,  "Log Stairs");
-        blockToStairs (pWriter, Blocks.STRIPPED_OAK_LOG,  modWoodBlocks.STRIPPED_OAK_LOG_STAIRS.get (), Blocks.OAK_LOG,"Log Stairs");
+        woodWall (pWriter, Blocks.OAK_LOG, Blocks.OAK_PLANKS, modWoodBlocks.OAK_LOG_WALL.get (), "Log Walls");
+        woodWall (pWriter, Blocks.OAK_PLANKS, Blocks.OAK_LOG, modWoodBlocks.OAK_PLANKS_WALL.get (), "Plank Walls");
 
-        woodWall (pWriter, Blocks.BIRCH_PLANKS, Blocks.BIRCH_LOG, modWoodBlocks.BIRCH_PLANKS_WALL.get (), "Plank Walls");
-        woodWall (pWriter, Blocks.BIRCH_LOG, Blocks.BIRCH_PLANKS, modWoodBlocks.BIRCH_LOG_WALL.get (), "Log Walls");
-        woodWall (pWriter, Blocks.STRIPPED_BIRCH_LOG, Blocks.BIRCH_LOG,  modWoodBlocks.STRIPPED_BIRCH_LOG_WALL.get (), "Log Walls");
+        blockToSlab (pWriter,  Blocks.BIRCH_LOG, modWoodBlocks.BIRCH_LOG_SLAB.get (), Blocks.BIRCH_LOG, "Log Slabs");
         blockToStairs (pWriter, Blocks.BIRCH_LOG,  modWoodBlocks.BIRCH_LOG_STAIRS.get (), Blocks.BIRCH_PLANKS,"Log Stairs");
-        blockToStairs (pWriter, Blocks.STRIPPED_BIRCH_LOG,  modWoodBlocks.STRIPPED_BIRCH_LOG_STAIRS.get (),Blocks.BIRCH_LOG, "Log Stairs");
+        woodWall (pWriter, Blocks.BIRCH_LOG, Blocks.BIRCH_PLANKS, modWoodBlocks.BIRCH_LOG_WALL.get (), "Log Walls");
+        woodWall (pWriter, Blocks.BIRCH_PLANKS, Blocks.BIRCH_LOG, modWoodBlocks.BIRCH_PLANKS_WALL.get (), "Plank Walls");
 
-        woodWall (pWriter, Blocks.SPRUCE_PLANKS, Blocks.SPRUCE_LOG, modWoodBlocks.SPRUCE_PLANKS_WALL.get (), "Plank Walls");
-        woodWall (pWriter, Blocks.SPRUCE_LOG, Blocks.SPRUCE_PLANKS, modWoodBlocks.SPRUCE_LOG_WALL.get (), "Log Walls");
-        woodWall (pWriter, Blocks.STRIPPED_SPRUCE_LOG, Blocks.SPRUCE_LOG,  modWoodBlocks.STRIPPED_SPRUCE_LOG_WALL.get (), "Log Walls");
+        blockToSlab (pWriter,  Blocks.SPRUCE_LOG, modWoodBlocks.SPRUCE_LOG_SLAB.get (), Blocks.SPRUCE_LOG, "Log Slabs");
         blockToStairs (pWriter, Blocks.SPRUCE_LOG,  modWoodBlocks.SPRUCE_LOG_STAIRS.get (), Blocks.SPRUCE_PLANKS,"Log Stairs");
-        blockToStairs (pWriter, Blocks.STRIPPED_SPRUCE_LOG, modWoodBlocks.STRIPPED_SPRUCE_LOG_STAIRS.get (),  Blocks.SPRUCE_LOG, "Log Stairs");
+        woodWall (pWriter, Blocks.SPRUCE_LOG, Blocks.SPRUCE_PLANKS, modWoodBlocks.SPRUCE_LOG_WALL.get (), "Log Walls");
+        woodWall (pWriter, Blocks.SPRUCE_PLANKS, Blocks.SPRUCE_LOG, modWoodBlocks.SPRUCE_PLANKS_WALL.get (), "Plank Walls");
 
-        woodWall (pWriter, Blocks.DARK_OAK_PLANKS, Blocks.DARK_OAK_LOG, modWoodBlocks.DARK_OAK_PLANKS_WALL.get (), "Plank Walls");
-        woodWall (pWriter, Blocks.DARK_OAK_LOG, Blocks.DARK_OAK_PLANKS, modWoodBlocks.DARK_OAK_LOG_WALL.get (), "Log Walls");
-        woodWall (pWriter, Blocks.STRIPPED_DARK_OAK_LOG, Blocks.DARK_OAK_LOG,  modWoodBlocks.STRIPPED_DARK_OAK_LOG_WALL.get (), "Log Walls");
+        blockToSlab (pWriter,  Blocks.DARK_OAK_LOG, modWoodBlocks.DARK_OAK_LOG_SLAB.get (), Blocks.DARK_OAK_LOG, "Log Slabs");
         blockToStairs (pWriter, Blocks.DARK_OAK_LOG, modWoodBlocks.DARK_OAK_LOG_STAIRS.get (), Blocks.DARK_OAK_PLANKS, "Log Stairs");
-        blockToStairs (pWriter, Blocks.STRIPPED_DARK_OAK_LOG,  modWoodBlocks.STRIPPED_DARK_OAK_LOG_STAIRS.get (), Blocks.DARK_OAK_LOG,"Log Stairs");
+        woodWall (pWriter, Blocks.DARK_OAK_LOG, Blocks.DARK_OAK_PLANKS, modWoodBlocks.DARK_OAK_LOG_WALL.get (), "Log Walls");
+        woodWall (pWriter, Blocks.DARK_OAK_PLANKS, Blocks.DARK_OAK_LOG, modWoodBlocks.DARK_OAK_PLANKS_WALL.get (), "Plank Walls");
 
-        woodWall (pWriter, Blocks.CHERRY_PLANKS, Blocks.CHERRY_LOG, modWoodBlocks.CHERRY_PLANKS_WALL.get (), "Plank Walls");
-        woodWall (pWriter, Blocks.CHERRY_LOG, Blocks.CHERRY_PLANKS, modWoodBlocks.CHERRY_LOG_WALL.get (), "Log Walls");
-        woodWall (pWriter, Blocks.STRIPPED_CHERRY_LOG, Blocks.CHERRY_LOG,  modWoodBlocks.STRIPPED_CHERRY_LOG_WALL.get (), "Log Walls");
+        blockToSlab (pWriter,  Blocks.CHERRY_LOG, modWoodBlocks.CHERRY_LOG_SLAB.get (), Blocks.CHERRY_LOG, "Log Slabs");
         blockToStairs (pWriter, Blocks.CHERRY_LOG, modWoodBlocks.CHERRY_LOG_STAIRS.get (), Blocks.CHERRY_PLANKS, "Log Stairs");
-        blockToStairs (pWriter, Blocks.STRIPPED_CHERRY_LOG,  modWoodBlocks.STRIPPED_CHERRY_LOG_STAIRS.get (), Blocks.CHERRY_LOG,"Log Stairs");
+        woodWall (pWriter, Blocks.CHERRY_LOG, Blocks.CHERRY_PLANKS, modWoodBlocks.CHERRY_LOG_WALL.get (), "Log Walls");
+        woodWall (pWriter, Blocks.CHERRY_PLANKS, Blocks.CHERRY_LOG, modWoodBlocks.CHERRY_PLANKS_WALL.get (), "Plank Walls");
 
-        woodWall (pWriter, Blocks.ACACIA_PLANKS, Blocks.ACACIA_LOG, modWoodBlocks.ACACIA_PLANKS_WALL.get (), "Plank Walls");
-        woodWall (pWriter, Blocks.ACACIA_LOG, Blocks.ACACIA_PLANKS, modWoodBlocks.ACACIA_LOG_WALL.get (), "Log Walls");
-        woodWall (pWriter, Blocks.STRIPPED_ACACIA_LOG, Blocks.ACACIA_LOG, modWoodBlocks.STRIPPED_ACACIA_LOG_WALL.get (), "Log Walls");
+        blockToSlab (pWriter,  Blocks.ACACIA_LOG, modWoodBlocks.ACACIA_LOG_SLAB.get (), Blocks.ACACIA_LOG, "Log Slabs");
         blockToStairs (pWriter, Blocks.ACACIA_LOG, modWoodBlocks.ACACIA_LOG_STAIRS.get (), Blocks.ACACIA_PLANKS, "Log Stairs");
-        blockToStairs (pWriter, Blocks.STRIPPED_ACACIA_LOG, modWoodBlocks.STRIPPED_ACACIA_LOG_STAIRS.get (), Blocks.ACACIA_LOG,  "Log Stairs");
+        woodWall (pWriter, Blocks.ACACIA_LOG, Blocks.ACACIA_PLANKS, modWoodBlocks.ACACIA_LOG_WALL.get (), "Log Walls");
+        woodWall (pWriter, Blocks.ACACIA_PLANKS, Blocks.ACACIA_LOG, modWoodBlocks.ACACIA_PLANKS_WALL.get (), "Plank Walls");
 
-        woodWall (pWriter, Blocks.JUNGLE_PLANKS, Blocks.JUNGLE_LOG, modWoodBlocks.JUNGLE_PLANKS_WALL.get (), "Plank Walls");
-        woodWall (pWriter, Blocks.JUNGLE_LOG, Blocks.JUNGLE_PLANKS, modWoodBlocks.JUNGLE_LOG_WALL.get (), "Log Walls");
-        woodWall (pWriter, Blocks.STRIPPED_JUNGLE_LOG, Blocks.JUNGLE_LOG,  modWoodBlocks.STRIPPED_JUNGLE_LOG_WALL.get (), "Log Walls");
+        blockToSlab (pWriter,  Blocks.JUNGLE_LOG, modWoodBlocks.JUNGLE_LOG_SLAB.get (), Blocks.JUNGLE_LOG, "Log Slabs");
         blockToStairs (pWriter, Blocks.JUNGLE_LOG,  modWoodBlocks.JUNGLE_LOG_STAIRS.get (), Blocks.JUNGLE_PLANKS,"Log Stairs");
-        blockToStairs (pWriter, Blocks.STRIPPED_JUNGLE_LOG, modWoodBlocks.STRIPPED_JUNGLE_LOG_STAIRS.get (), Blocks.JUNGLE_LOG,  "Log Stairs");
+        woodWall (pWriter, Blocks.JUNGLE_LOG, Blocks.JUNGLE_PLANKS, modWoodBlocks.JUNGLE_LOG_WALL.get (), "Log Walls");
+        woodWall (pWriter, Blocks.JUNGLE_PLANKS, Blocks.JUNGLE_LOG, modWoodBlocks.JUNGLE_PLANKS_WALL.get (), "Plank Walls");
 
-        woodWall (pWriter, Blocks.MANGROVE_PLANKS, Blocks.MANGROVE_LOG, modWoodBlocks.MANGROVE_PLANKS_WALL.get (), "Plank Walls");
-        woodWall (pWriter, Blocks.MANGROVE_LOG, Blocks.MANGROVE_PLANKS, modWoodBlocks.MANGROVE_LOG_WALL.get (), "Log Walls");
-        woodWall (pWriter, Blocks.STRIPPED_MANGROVE_LOG, Blocks.MANGROVE_LOG, modWoodBlocks.STRIPPED_MANGROVE_LOG_WALL.get (), "Log Walls");
+        blockToSlab (pWriter,  Blocks.MANGROVE_LOG, modWoodBlocks.MANGROVE_LOG_SLAB.get (), Blocks.MANGROVE_LOG, "Log Slabs");
         blockToStairs (pWriter, Blocks.MANGROVE_LOG, modWoodBlocks.MANGROVE_LOG_STAIRS.get (), Blocks.MANGROVE_PLANKS, "Log Stairs");
-        blockToStairs (pWriter, Blocks.STRIPPED_MANGROVE_LOG, modWoodBlocks.STRIPPED_MANGROVE_LOG_STAIRS.get (),  Blocks.MANGROVE_LOG, "Log Stairs");
+        woodWall (pWriter, Blocks.MANGROVE_LOG, Blocks.MANGROVE_PLANKS, modWoodBlocks.MANGROVE_LOG_WALL.get (), "Log Walls");
+        woodWall (pWriter, Blocks.MANGROVE_PLANKS, Blocks.MANGROVE_LOG, modWoodBlocks.MANGROVE_PLANKS_WALL.get (), "Plank Walls");
 
-        woodWall (pWriter, Blocks.BAMBOO_PLANKS, Blocks.BAMBOO_BLOCK, modWoodBlocks.BAMBOO_PLANKS_WALL.get (), "Plank Walls");
-        woodWall (pWriter, Blocks.BAMBOO_BLOCK, Blocks.BAMBOO_PLANKS, modWoodBlocks.BAMBOO_BLOCK_WALL.get (), "Log Walls");
-        woodWall (pWriter, Blocks.STRIPPED_BAMBOO_BLOCK, Blocks.BAMBOO_BLOCK, modWoodBlocks.STRIPPED_BAMBOO_BLOCK_WALL.get (), "Log Walls");
+        blockToSlab (pWriter,  Blocks.BAMBOO_BLOCK, modWoodBlocks.BAMBOO_BLOCK_SLAB.get (), Blocks.BAMBOO_BLOCK, "Log Slabs");
         blockToStairs (pWriter, Blocks.BAMBOO_BLOCK,  modWoodBlocks.BAMBOO_BLOCK_STAIRS.get (), Blocks.BAMBOO_PLANKS,"Log Stairs");
-        blockToStairs (pWriter, Blocks.STRIPPED_BAMBOO_BLOCK,  modWoodBlocks.STRIPPED_BAMBOO_BLOCK_STAIRS.get (), Blocks.BAMBOO_BLOCK,"Log Stairs");
+        woodWall (pWriter, Blocks.BAMBOO_BLOCK, Blocks.BAMBOO_PLANKS, modWoodBlocks.BAMBOO_BLOCK_WALL.get (), "Log Walls");
+        woodWall (pWriter, Blocks.BAMBOO_PLANKS, Blocks.BAMBOO_BLOCK, modWoodBlocks.BAMBOO_PLANKS_WALL.get (), "Plank Walls");
 
-        woodWall (pWriter, Blocks.WARPED_PLANKS, Blocks.WARPED_STEM, modWoodBlocks.WARPED_PLANKS_WALL.get (), "Plank Walls");
-        woodWall (pWriter, Blocks.WARPED_STEM, Blocks.WARPED_PLANKS, modWoodBlocks.WARPED_STEM_WALL.get (), "Log Walls");
-        woodWall (pWriter, Blocks.STRIPPED_WARPED_STEM, Blocks.WARPED_STEM, modWoodBlocks.STRIPPED_WARPED_STEM_WALL.get (), "Log Walls");
+        blockToSlab (pWriter,  Blocks.WARPED_STEM, modWoodBlocks.WARPED_STEM_SLAB.get (), Blocks.WARPED_STEM, "Log Slabs");
         blockToStairs (pWriter, Blocks.WARPED_STEM, modWoodBlocks.WARPED_STEM_STAIRS.get (), Blocks.WARPED_PLANKS, "Log Stairs");
-        blockToStairs (pWriter, Blocks.STRIPPED_WARPED_STEM, modWoodBlocks.STRIPPED_WARPED_STEM_STAIRS.get (), Blocks.WARPED_STEM,  "Log Stairs");
+        woodWall (pWriter, Blocks.WARPED_STEM, Blocks.WARPED_PLANKS, modWoodBlocks.WARPED_STEM_WALL.get (), "Log Walls");
+        woodWall (pWriter, Blocks.WARPED_PLANKS, Blocks.WARPED_STEM, modWoodBlocks.WARPED_PLANKS_WALL.get (), "Plank Walls");
 
-        woodWall (pWriter, Blocks.CRIMSON_PLANKS, Blocks.CRIMSON_STEM, modWoodBlocks.CRIMSON_PLANKS_WALL.get (), "Plank Walls");
-        woodWall (pWriter, Blocks.CRIMSON_STEM, Blocks.CRIMSON_PLANKS, modWoodBlocks.CRIMSON_STEM_WALL.get (), "Log Walls");
-        woodWall (pWriter, Blocks.STRIPPED_CRIMSON_STEM, Blocks.CRIMSON_STEM, modWoodBlocks.STRIPPED_CRIMSON_STEM_WALL.get (), "Log Walls");
+        blockToSlab (pWriter,  Blocks.CRIMSON_STEM, modWoodBlocks.CRIMSON_STEM_SLAB.get (), Blocks.CRIMSON_STEM, "Log Slabs");
         blockToStairs (pWriter, Blocks.CRIMSON_STEM, modWoodBlocks.CRIMSON_STEM_STAIRS.get (),  Blocks.CRIMSON_PLANKS,"Log Stairs");
-        blockToStairs (pWriter, Blocks.STRIPPED_CRIMSON_STEM, modWoodBlocks.STRIPPED_CRIMSON_STEM_STAIRS.get (),  Blocks.CRIMSON_STEM, "Log Stairs");
+        woodWall (pWriter, Blocks.CRIMSON_STEM, Blocks.CRIMSON_PLANKS, modWoodBlocks.CRIMSON_STEM_WALL.get (), "Log Walls");
+        woodWall (pWriter, Blocks.CRIMSON_PLANKS, Blocks.CRIMSON_STEM, modWoodBlocks.CRIMSON_PLANKS_WALL.get (), "Plank Walls");
+
+        //stripped wood
+        blockToSlab (pWriter,  Blocks.STRIPPED_OAK_LOG, modWoodBlocks.STRIPPED_OAK_LOG_SLAB.get (), Blocks.OAK_LOG, "Stripped Log Slabs");
+        blockToStairs (pWriter, Blocks.STRIPPED_OAK_LOG,  modWoodBlocks.STRIPPED_OAK_LOG_STAIRS.get (), Blocks.OAK_LOG,"Stripped Log Stairs");
+        woodWall (pWriter, Blocks.STRIPPED_OAK_LOG, Blocks.OAK_LOG,  modWoodBlocks.STRIPPED_OAK_LOG_WALL.get (), "Stripped Log Walls");
+
+        blockToSlab (pWriter,  Blocks.STRIPPED_BIRCH_LOG, modWoodBlocks.STRIPPED_BIRCH_LOG_SLAB.get (), Blocks.BIRCH_LOG, "Stripped Log Slabs");
+        blockToStairs (pWriter, Blocks.STRIPPED_BIRCH_LOG,  modWoodBlocks.STRIPPED_BIRCH_LOG_STAIRS.get (),Blocks.BIRCH_LOG, "Stripped Log Stairs");
+        woodWall (pWriter, Blocks.STRIPPED_BIRCH_LOG, Blocks.BIRCH_LOG,  modWoodBlocks.STRIPPED_BIRCH_LOG_WALL.get (), "Stripped Log Walls");
+
+        blockToSlab (pWriter,  Blocks.STRIPPED_SPRUCE_LOG, modWoodBlocks.STRIPPED_SPRUCE_LOG_SLAB.get (), Blocks.SPRUCE_LOG, "Stripped Log Slabs");
+        blockToStairs (pWriter, Blocks.STRIPPED_SPRUCE_LOG, modWoodBlocks.STRIPPED_SPRUCE_LOG_STAIRS.get (),  Blocks.SPRUCE_LOG, "Stripped Log Stairs");
+        woodWall (pWriter, Blocks.STRIPPED_SPRUCE_LOG, Blocks.SPRUCE_LOG,  modWoodBlocks.STRIPPED_SPRUCE_LOG_WALL.get (), "Stripped Log Walls");
+
+        blockToSlab (pWriter,  Blocks.STRIPPED_DARK_OAK_LOG, modWoodBlocks.STRIPPED_DARK_OAK_LOG_SLAB.get (), Blocks.BIRCH_LOG, "Stripped Log Slabs");
+        blockToStairs (pWriter, Blocks.STRIPPED_DARK_OAK_LOG,  modWoodBlocks.STRIPPED_DARK_OAK_LOG_STAIRS.get (), Blocks.DARK_OAK_LOG,"Stripped Log Stairs");
+        woodWall (pWriter, Blocks.STRIPPED_DARK_OAK_LOG, Blocks.DARK_OAK_LOG,  modWoodBlocks.STRIPPED_DARK_OAK_LOG_WALL.get (), "Stripped Log Walls");
+
+        blockToSlab (pWriter,  Blocks.STRIPPED_CHERRY_LOG, modWoodBlocks.STRIPPED_CHERRY_LOG_SLAB.get (), Blocks.CHERRY_LOG, "Stripped Log Slabs");
+        blockToStairs (pWriter, Blocks.STRIPPED_CHERRY_LOG,  modWoodBlocks.STRIPPED_CHERRY_LOG_STAIRS.get (), Blocks.CHERRY_LOG,"Stripped Log Stairs");
+        woodWall (pWriter, Blocks.STRIPPED_CHERRY_LOG, Blocks.CHERRY_LOG,  modWoodBlocks.STRIPPED_CHERRY_LOG_WALL.get (), "Stripped Log Walls");
+
+        blockToSlab (pWriter,  Blocks.STRIPPED_ACACIA_LOG, modWoodBlocks.STRIPPED_ACACIA_LOG_SLAB.get (), Blocks.ACACIA_LOG, "Stripped Log Slabs");
+        blockToStairs (pWriter, Blocks.STRIPPED_ACACIA_LOG, modWoodBlocks.STRIPPED_ACACIA_LOG_STAIRS.get (), Blocks.ACACIA_LOG,  "Stripped Log Stairs");
+        woodWall (pWriter, Blocks.STRIPPED_ACACIA_LOG, Blocks.ACACIA_LOG, modWoodBlocks.STRIPPED_ACACIA_LOG_WALL.get (), "Stripped Log Walls");
+
+        blockToSlab (pWriter,  Blocks.STRIPPED_JUNGLE_LOG, modWoodBlocks.STRIPPED_JUNGLE_LOG_SLAB.get (), Blocks.JUNGLE_LOG, "Stripped Log Slabs");
+        blockToStairs (pWriter, Blocks.STRIPPED_JUNGLE_LOG, modWoodBlocks.STRIPPED_JUNGLE_LOG_STAIRS.get (), Blocks.JUNGLE_LOG,  "Stripped Log Stairs");
+        woodWall (pWriter, Blocks.STRIPPED_JUNGLE_LOG, Blocks.JUNGLE_LOG,  modWoodBlocks.STRIPPED_JUNGLE_LOG_WALL.get (), "Stripped Log Walls");
+
+        blockToSlab (pWriter,  Blocks.STRIPPED_MANGROVE_LOG, modWoodBlocks.STRIPPED_MANGROVE_LOG_SLAB.get (), Blocks.MANGROVE_LOG, "Stripped Log Slabs");
+        blockToStairs (pWriter, Blocks.STRIPPED_MANGROVE_LOG, modWoodBlocks.STRIPPED_MANGROVE_LOG_STAIRS.get (),  Blocks.MANGROVE_LOG, "Stripped Log Stairs");
+        woodWall (pWriter, Blocks.STRIPPED_MANGROVE_LOG, Blocks.MANGROVE_LOG, modWoodBlocks.STRIPPED_MANGROVE_LOG_WALL.get (), "Stripped Log Walls");
+
+        woodWall (pWriter, Blocks.STRIPPED_BAMBOO_BLOCK, Blocks.BAMBOO_BLOCK, modWoodBlocks.STRIPPED_BAMBOO_BLOCK_WALL.get (), "Stripped Log Walls");
+        blockToStairs (pWriter, Blocks.STRIPPED_BAMBOO_BLOCK,  modWoodBlocks.STRIPPED_BAMBOO_BLOCK_STAIRS.get (), Blocks.BAMBOO_BLOCK,"Stripped Log Stairs");
+        blockToSlab (pWriter,  Blocks.STRIPPED_BAMBOO_BLOCK, modWoodBlocks.STRIPPED_BAMBOO_BLOCK_SLAB.get (), Blocks.BAMBOO_BLOCK, "Stripped Log Slabs");
+
+        woodWall (pWriter, Blocks.STRIPPED_WARPED_STEM, Blocks.WARPED_STEM, modWoodBlocks.STRIPPED_WARPED_STEM_WALL.get (), "Stripped Log Walls");
+        blockToStairs (pWriter, Blocks.STRIPPED_WARPED_STEM, modWoodBlocks.STRIPPED_WARPED_STEM_STAIRS.get (), Blocks.WARPED_STEM,  "Stripped Log Stairs");
+        blockToSlab (pWriter,  Blocks.STRIPPED_WARPED_STEM, modWoodBlocks.STRIPPED_WARPED_STEM_SLAB.get (), Blocks.WARPED_STEM, "Stripped Log Slabs");
+
+        blockToSlab (pWriter,  Blocks.STRIPPED_CRIMSON_STEM, modWoodBlocks.STRIPPED_CRIMSON_STEM_SLAB.get (), Blocks.CRIMSON_STEM, "Stripped Log Slabs");
+        blockToStairs (pWriter, Blocks.STRIPPED_CRIMSON_STEM, modWoodBlocks.STRIPPED_CRIMSON_STEM_STAIRS.get (),  Blocks.CRIMSON_STEM, "Stripped Log Stairs");
+        woodWall (pWriter, Blocks.STRIPPED_CRIMSON_STEM, Blocks.CRIMSON_STEM, modWoodBlocks.STRIPPED_CRIMSON_STEM_WALL.get (), "Stripped Log Walls");
+
+
     }
     //so crafting table and stonecutter recipes are called in one action
     protected static void bothSlabs(Consumer<FinishedRecipe> pFinishedRecipeConsumer, ItemLike pInput, ItemLike pOutput, ItemLike pUnlockItem, String pGroup){
@@ -325,6 +360,7 @@ public class modRecipeGenerator extends RecipeProvider implements IConditionBuil
         blockToWall (pFinishedRecipeConsumer, pInput, pOutput, pUnlockItem, pGroup);
         stonecutterModRecipe (pFinishedRecipeConsumer, pInput, pOutput);
     }
+
 
     //crafting table recipes
     protected static void blockToSlab (Consumer<FinishedRecipe> pFinishedRecipeConsumer, ItemLike pInput, ItemLike pOutput, ItemLike pUnlockItem, String pGroup) {

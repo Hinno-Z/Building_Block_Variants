@@ -123,7 +123,7 @@ public class modItemModelGenerator extends ItemModelProvider {
         WallBlockItem(modWoodBlocks.BAMBOO_PLANKS_WALL);  WallBlockItem(modWoodBlocks.BAMBOO_BLOCK_WALL);  WallBlockItem(modWoodBlocks.STRIPPED_BAMBOO_BLOCK_WALL);
         WallBlockItem(modWoodBlocks.WARPED_PLANKS_WALL);  WallBlockItem(modWoodBlocks.WARPED_STEM_WALL);  WallBlockItem(modWoodBlocks.STRIPPED_WARPED_STEM_WALL);
         WallBlockItem(modWoodBlocks.CRIMSON_PLANKS_WALL);  WallBlockItem(modWoodBlocks.CRIMSON_STEM_WALL);  WallBlockItem(modWoodBlocks.STRIPPED_CRIMSON_STEM_WALL);
-        //log stairs
+        //stairs
         BlockItem(modWoodBlocks.OAK_LOG_STAIRS);   BlockItem(modWoodBlocks.STRIPPED_OAK_LOG_STAIRS);
         BlockItem(modWoodBlocks.BIRCH_LOG_STAIRS);   BlockItem(modWoodBlocks.STRIPPED_BIRCH_LOG_STAIRS);
         BlockItem(modWoodBlocks.SPRUCE_LOG_STAIRS);   BlockItem(modWoodBlocks.STRIPPED_SPRUCE_LOG_STAIRS);
@@ -135,6 +135,18 @@ public class modItemModelGenerator extends ItemModelProvider {
         BlockItem(modWoodBlocks.BAMBOO_BLOCK_STAIRS);   BlockItem(modWoodBlocks.STRIPPED_BAMBOO_BLOCK_STAIRS);
         BlockItem(modWoodBlocks.WARPED_STEM_STAIRS);   BlockItem(modWoodBlocks.STRIPPED_WARPED_STEM_STAIRS);
         BlockItem(modWoodBlocks.CRIMSON_STEM_STAIRS);   BlockItem(modWoodBlocks.STRIPPED_CRIMSON_STEM_STAIRS);
+        //slabs
+        BlockItem(modWoodBlocks.OAK_LOG_SLAB);   BlockItem(modWoodBlocks.STRIPPED_OAK_LOG_SLAB);
+        BlockItem(modWoodBlocks.BIRCH_LOG_SLAB);   BlockItem(modWoodBlocks.STRIPPED_BIRCH_LOG_SLAB);
+        BlockItem(modWoodBlocks.SPRUCE_LOG_SLAB);   BlockItem(modWoodBlocks.STRIPPED_SPRUCE_LOG_SLAB);
+        BlockItem(modWoodBlocks.DARK_OAK_LOG_SLAB);   BlockItem(modWoodBlocks.STRIPPED_DARK_OAK_LOG_SLAB);
+        BlockItem(modWoodBlocks.CHERRY_LOG_SLAB);   BlockItem(modWoodBlocks.STRIPPED_CHERRY_LOG_SLAB);
+        BlockItem(modWoodBlocks.ACACIA_LOG_SLAB);   BlockItem(modWoodBlocks.STRIPPED_ACACIA_LOG_SLAB);
+        BlockItem(modWoodBlocks.JUNGLE_LOG_SLAB);   BlockItem(modWoodBlocks.STRIPPED_JUNGLE_LOG_SLAB);
+        BlockItem(modWoodBlocks.MANGROVE_LOG_SLAB);   BlockItem(modWoodBlocks.STRIPPED_MANGROVE_LOG_SLAB);
+        BlockItem(modWoodBlocks.BAMBOO_BLOCK_SLAB);   BlockItem(modWoodBlocks.STRIPPED_BAMBOO_BLOCK_SLAB);
+        BlockItem(modWoodBlocks.WARPED_STEM_SLAB);   BlockItem(modWoodBlocks.STRIPPED_WARPED_STEM_SLAB);
+        BlockItem(modWoodBlocks.CRIMSON_STEM_SLAB);   BlockItem(modWoodBlocks.STRIPPED_CRIMSON_STEM_SLAB);
     }
 
 

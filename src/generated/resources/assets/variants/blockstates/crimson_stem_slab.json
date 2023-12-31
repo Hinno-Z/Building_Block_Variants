@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "variants:block/crimson_stem_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/crimson_hyphae"
+    },
+    "type=top": {
+      "model": "variants:block/crimson_stem_slab_top"
+    }
+  }
+}
