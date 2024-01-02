@@ -22,168 +22,168 @@ public class modWoodBlocks {
     public static final RegistryObject<Block> OAK_PLANKS_WALL = registerBlock ("oak_planks_wall",
             () -> new WallBlock (BlockBehaviour.Properties.copy (Blocks.OAK_PLANKS)));
     public static final RegistryObject<Block> OAK_LOG_WALL = registerBlock ("oak_log_wall",
-            () -> new WallBlock (BlockBehaviour.Properties.copy (Blocks.OAK_PLANKS)));
+            () -> new WallBlock (BlockBehaviour.Properties.copy (Blocks.OAK_PLANKS).mapColor (Blocks.OAK_WOOD.defaultMapColor ())));
     public static final RegistryObject<Block> STRIPPED_OAK_LOG_WALL = registerBlock ("stripped_oak_log_wall",
-            () -> new WallBlock (BlockBehaviour.Properties.copy (Blocks.OAK_PLANKS)));
+            () -> new WallBlock (BlockBehaviour.Properties.copy (Blocks.OAK_PLANKS).mapColor (Blocks.OAK_WOOD.defaultMapColor ())));
     public static final RegistryObject<Block> OAK_LOG_STAIRS = registerBlock ("oak_log_stairs",
-            () -> new StairBlock (Blocks.OAK_PLANKS::defaultBlockState, BlockBehaviour.Properties.copy (Blocks.OAK_PLANKS)));
+            () -> new StairBlock (Blocks.OAK_PLANKS::defaultBlockState, BlockBehaviour.Properties.copy (Blocks.OAK_PLANKS).mapColor (Blocks.OAK_WOOD.defaultMapColor ())));
     public static final RegistryObject<Block> STRIPPED_OAK_LOG_STAIRS = registerBlock ("stripped_oak_log_stairs",
-            () -> new StairBlock (Blocks.OAK_PLANKS::defaultBlockState, BlockBehaviour.Properties.copy (Blocks.OAK_PLANKS)));
+            () -> new StairBlock (Blocks.OAK_PLANKS::defaultBlockState, BlockBehaviour.Properties.copy (Blocks.OAK_PLANKS).mapColor (Blocks.STRIPPED_OAK_WOOD.defaultMapColor ())));
     public static final RegistryObject<Block> OAK_LOG_SLAB = registerBlock ("oak_log_slab",
-            () -> new SlabBlock (BlockBehaviour.Properties.copy (Blocks.OAK_PLANKS)));
+            () -> new SlabBlock (BlockBehaviour.Properties.copy (Blocks.OAK_PLANKS).mapColor (Blocks.OAK_WOOD.defaultMapColor ())));
     public static final RegistryObject<Block> STRIPPED_OAK_LOG_SLAB = registerBlock ("stripped_oak_log_slab",
-            () -> new SlabBlock (BlockBehaviour.Properties.copy (Blocks.OAK_PLANKS)));
+            () -> new SlabBlock (BlockBehaviour.Properties.copy (Blocks.OAK_PLANKS).mapColor (Blocks.STRIPPED_OAK_WOOD.defaultMapColor ())));
 
 
     public static final RegistryObject<Block> BIRCH_PLANKS_WALL = registerBlock ("birch_planks_wall",
             () -> new WallBlock (BlockBehaviour.Properties.copy (Blocks.BIRCH_PLANKS)));
     public static final RegistryObject<Block> BIRCH_LOG_WALL = registerBlock ("birch_log_wall",
-            () -> new WallBlock (BlockBehaviour.Properties.copy (Blocks.BIRCH_PLANKS)));
+            () -> new WallBlock (BlockBehaviour.Properties.copy (Blocks.BIRCH_PLANKS).mapColor (Blocks.BIRCH_WOOD.defaultMapColor ())));
     public static final RegistryObject<Block> STRIPPED_BIRCH_LOG_WALL = registerBlock ("stripped_birch_log_wall",
-            () -> new WallBlock (BlockBehaviour.Properties.copy (Blocks.BIRCH_PLANKS)));
+            () -> new WallBlock (BlockBehaviour.Properties.copy (Blocks.BIRCH_PLANKS).mapColor (Blocks.BIRCH_WOOD.defaultMapColor ())));
     public static final RegistryObject<Block> BIRCH_LOG_STAIRS  = registerBlock ("birch_log_stairs",
-            () -> new StairBlock (Blocks.BIRCH_PLANKS::defaultBlockState, BlockBehaviour.Properties.copy (Blocks.BIRCH_PLANKS)));
+            () -> new StairBlock (Blocks.BIRCH_PLANKS::defaultBlockState, BlockBehaviour.Properties.copy (Blocks.BIRCH_PLANKS).mapColor (Blocks.BIRCH_WOOD.defaultMapColor ())));
     public static final RegistryObject<Block> STRIPPED_BIRCH_LOG_STAIRS  = registerBlock ("stripped_birch_log_stairs",
-            () -> new StairBlock (Blocks.BIRCH_PLANKS::defaultBlockState, BlockBehaviour.Properties.copy (Blocks.BIRCH_PLANKS)));
+            () -> new StairBlock (Blocks.BIRCH_PLANKS::defaultBlockState, BlockBehaviour.Properties.copy (Blocks.BIRCH_PLANKS).mapColor (Blocks.STRIPPED_BIRCH_WOOD.defaultMapColor ())));
     public static final RegistryObject<Block> BIRCH_LOG_SLAB = registerBlock ("birch_log_slab",
-            () -> new SlabBlock (BlockBehaviour.Properties.copy (Blocks.BIRCH_PLANKS)));
+            () -> new SlabBlock (BlockBehaviour.Properties.copy (Blocks.BIRCH_PLANKS).mapColor (Blocks.BIRCH_WOOD.defaultMapColor ())));
     public static final RegistryObject<Block> STRIPPED_BIRCH_LOG_SLAB = registerBlock ("stripped_birch_log_slab",
-            () -> new SlabBlock (BlockBehaviour.Properties.copy (Blocks.BIRCH_PLANKS)));
+            () -> new SlabBlock (BlockBehaviour.Properties.copy (Blocks.BIRCH_PLANKS).mapColor (Blocks.STRIPPED_BIRCH_WOOD.defaultMapColor ())));
 
     public static final RegistryObject<Block> SPRUCE_PLANKS_WALL = registerBlock ("spruce_planks_wall",
             () -> new WallBlock (BlockBehaviour.Properties.copy (Blocks.SPRUCE_PLANKS)));
     public static final RegistryObject<Block> SPRUCE_LOG_WALL = registerBlock ("spruce_log_wall",
-            () -> new WallBlock (BlockBehaviour.Properties.copy (Blocks.SPRUCE_PLANKS)));
+            () -> new WallBlock (BlockBehaviour.Properties.copy (Blocks.SPRUCE_PLANKS).mapColor (Blocks.SPRUCE_WOOD.defaultMapColor ())));
     public static final RegistryObject<Block> STRIPPED_SPRUCE_LOG_WALL = registerBlock ("stripped_spruce_log_wall",
-            () -> new WallBlock (BlockBehaviour.Properties.copy (Blocks.SPRUCE_PLANKS)));
+            () -> new WallBlock (BlockBehaviour.Properties.copy (Blocks.SPRUCE_PLANKS).mapColor (Blocks.SPRUCE_WOOD.defaultMapColor ())));
     public static final RegistryObject<Block> SPRUCE_LOG_STAIRS = registerBlock ("spruce_log_stairs",
-            () -> new StairBlock (Blocks.SPRUCE_PLANKS::defaultBlockState, BlockBehaviour.Properties.copy (Blocks.SPRUCE_PLANKS)));
+            () -> new StairBlock (Blocks.SPRUCE_PLANKS::defaultBlockState, BlockBehaviour.Properties.copy (Blocks.SPRUCE_PLANKS).mapColor (Blocks.SPRUCE_WOOD.defaultMapColor ())));
     public static final RegistryObject<Block> STRIPPED_SPRUCE_LOG_STAIRS = registerBlock ("stripped_spruce_log_stairs",
-            () -> new StairBlock (Blocks.SPRUCE_PLANKS::defaultBlockState, BlockBehaviour.Properties.copy (Blocks.SPRUCE_PLANKS)));
+            () -> new StairBlock (Blocks.SPRUCE_PLANKS::defaultBlockState, BlockBehaviour.Properties.copy (Blocks.SPRUCE_PLANKS).mapColor (Blocks.STRIPPED_SPRUCE_WOOD.defaultMapColor ())));
     public static final RegistryObject<Block> SPRUCE_LOG_SLAB = registerBlock ("spruce_log_slab",
-            () -> new SlabBlock (BlockBehaviour.Properties.copy (Blocks.SPRUCE_PLANKS)));
+            () -> new SlabBlock (BlockBehaviour.Properties.copy (Blocks.SPRUCE_PLANKS).mapColor (Blocks.SPRUCE_WOOD.defaultMapColor ())));
     public static final RegistryObject<Block> STRIPPED_SPRUCE_LOG_SLAB = registerBlock ("stripped_spruce_log_slab",
-            () -> new SlabBlock (BlockBehaviour.Properties.copy (Blocks.SPRUCE_PLANKS)));
+            () -> new SlabBlock (BlockBehaviour.Properties.copy (Blocks.SPRUCE_PLANKS).mapColor (Blocks.STRIPPED_SPRUCE_WOOD.defaultMapColor ())));
 
     public static final RegistryObject<Block> DARK_OAK_PLANKS_WALL = registerBlock ("dark_oak_planks_wall",
             () -> new WallBlock (BlockBehaviour.Properties.copy (Blocks.DARK_OAK_PLANKS)));
     public static final RegistryObject<Block> DARK_OAK_LOG_WALL = registerBlock ("dark_oak_log_wall",
-            () -> new WallBlock (BlockBehaviour.Properties.copy (Blocks.DARK_OAK_PLANKS)));
+            () -> new WallBlock (BlockBehaviour.Properties.copy (Blocks.DARK_OAK_PLANKS).mapColor (Blocks.DARK_OAK_WOOD.defaultMapColor ())));
     public static final RegistryObject<Block> STRIPPED_DARK_OAK_LOG_WALL = registerBlock ("stripped_dark_oak_log_wall",
-            () -> new WallBlock (BlockBehaviour.Properties.copy (Blocks.DARK_OAK_PLANKS)));
+            () -> new WallBlock (BlockBehaviour.Properties.copy (Blocks.DARK_OAK_PLANKS).mapColor (Blocks.DARK_OAK_WOOD.defaultMapColor ())));
     public static final RegistryObject<Block> DARK_OAK_LOG_STAIRS = registerBlock ("dark_oak_log_stairs",
-            () -> new StairBlock (Blocks.DARK_OAK_PLANKS::defaultBlockState, BlockBehaviour.Properties.copy (Blocks.DARK_OAK_PLANKS)));
+            () -> new StairBlock (Blocks.DARK_OAK_PLANKS::defaultBlockState, BlockBehaviour.Properties.copy (Blocks.DARK_OAK_PLANKS).mapColor (Blocks.DARK_OAK_WOOD.defaultMapColor ())));
     public static final RegistryObject<Block> STRIPPED_DARK_OAK_LOG_STAIRS = registerBlock ("stripped_dark_oak_log_stairs",
-            () -> new StairBlock (Blocks.DARK_OAK_PLANKS::defaultBlockState, BlockBehaviour.Properties.copy (Blocks.DARK_OAK_PLANKS)));
+            () -> new StairBlock (Blocks.DARK_OAK_PLANKS::defaultBlockState, BlockBehaviour.Properties.copy (Blocks.DARK_OAK_PLANKS).mapColor (Blocks.STRIPPED_DARK_OAK_WOOD.defaultMapColor ())));
     public static final RegistryObject<Block> DARK_OAK_LOG_SLAB = registerBlock ("dark_oak_log_slab",
-            () -> new SlabBlock (BlockBehaviour.Properties.copy (Blocks.DARK_OAK_PLANKS)));
+            () -> new SlabBlock (BlockBehaviour.Properties.copy (Blocks.DARK_OAK_PLANKS).mapColor (Blocks.DARK_OAK_WOOD.defaultMapColor ())));
     public static final RegistryObject<Block> STRIPPED_DARK_OAK_LOG_SLAB = registerBlock ("stripped_dark_oak_log_slab",
-            () -> new SlabBlock (BlockBehaviour.Properties.copy (Blocks.DARK_OAK_PLANKS)));
+            () -> new SlabBlock (BlockBehaviour.Properties.copy (Blocks.DARK_OAK_PLANKS).mapColor (Blocks.STRIPPED_DARK_OAK_WOOD.defaultMapColor ())));
 
     public static final RegistryObject<Block> CHERRY_PLANKS_WALL = registerBlock ("cherry_planks_wall",
             () -> new WallBlock (BlockBehaviour.Properties.copy (Blocks. CHERRY_PLANKS)));
     public static final RegistryObject<Block> CHERRY_LOG_WALL = registerBlock ("cherry_log_wall",
-            () -> new WallBlock (BlockBehaviour.Properties.copy (Blocks.CHERRY_PLANKS)));
+            () -> new WallBlock (BlockBehaviour.Properties.copy (Blocks.CHERRY_PLANKS).mapColor (Blocks.CHERRY_WOOD.defaultMapColor ())));
     public static final RegistryObject<Block> STRIPPED_CHERRY_LOG_WALL = registerBlock ("stripped_cherry_log_wall",
-            () -> new WallBlock (BlockBehaviour.Properties.copy (Blocks. CHERRY_PLANKS)));
+            () -> new WallBlock (BlockBehaviour.Properties.copy (Blocks. CHERRY_PLANKS).mapColor (Blocks.CHERRY_WOOD.defaultMapColor ())));
     public static final RegistryObject<Block> CHERRY_LOG_STAIRS = registerBlock ("cherry_log_stairs",
-            () -> new StairBlock (Blocks.CHERRY_PLANKS::defaultBlockState, BlockBehaviour.Properties.copy (Blocks. CHERRY_PLANKS)));
+            () -> new StairBlock (Blocks.CHERRY_PLANKS::defaultBlockState, BlockBehaviour.Properties.copy (Blocks. CHERRY_PLANKS).mapColor (Blocks.CHERRY_WOOD.defaultMapColor ())));
     public static final RegistryObject<Block> STRIPPED_CHERRY_LOG_STAIRS = registerBlock ("stripped_cherry_log_stairs",
-            () -> new StairBlock (Blocks.CHERRY_PLANKS::defaultBlockState, BlockBehaviour.Properties.copy (Blocks. CHERRY_PLANKS)));
+            () -> new StairBlock (Blocks.CHERRY_PLANKS::defaultBlockState, BlockBehaviour.Properties.copy (Blocks. CHERRY_PLANKS).mapColor (Blocks.STRIPPED_CHERRY_WOOD.defaultMapColor ())));
     public static final RegistryObject<Block> CHERRY_LOG_SLAB = registerBlock ("cherry_log_slab",
-            () -> new SlabBlock (BlockBehaviour.Properties.copy (Blocks.CHERRY_PLANKS)));
+            () -> new SlabBlock (BlockBehaviour.Properties.copy (Blocks.CHERRY_PLANKS).mapColor (Blocks.CHERRY_WOOD.defaultMapColor ())));
     public static final RegistryObject<Block> STRIPPED_CHERRY_LOG_SLAB = registerBlock ("stripped_cherry_log_slab",
-            () -> new SlabBlock (BlockBehaviour.Properties.copy (Blocks.CHERRY_PLANKS)));
+            () -> new SlabBlock (BlockBehaviour.Properties.copy (Blocks.CHERRY_PLANKS).mapColor (Blocks.STRIPPED_CHERRY_WOOD.defaultMapColor ())));
 
     public static final RegistryObject<Block> ACACIA_PLANKS_WALL = registerBlock ("acacia_planks_wall",
             () -> new WallBlock (BlockBehaviour.Properties.copy (Blocks.ACACIA_PLANKS)));
     public static final RegistryObject<Block> ACACIA_LOG_WALL = registerBlock ("acacia_log_wall",
-            () -> new WallBlock (BlockBehaviour.Properties.copy (Blocks.ACACIA_PLANKS)));
+            () -> new WallBlock (BlockBehaviour.Properties.copy (Blocks.ACACIA_PLANKS).mapColor (Blocks.ACACIA_WOOD.defaultMapColor ())));
     public static final RegistryObject<Block> STRIPPED_ACACIA_LOG_WALL = registerBlock ("stripped_acacia_log_wall",
-            () -> new WallBlock (BlockBehaviour.Properties.copy (Blocks.ACACIA_PLANKS)));
+            () -> new WallBlock (BlockBehaviour.Properties.copy (Blocks.ACACIA_PLANKS).mapColor (Blocks.ACACIA_WOOD.defaultMapColor ())));
     public static final RegistryObject<Block> ACACIA_LOG_STAIRS = registerBlock ("acacia_log_stairs",
-            () -> new StairBlock (Blocks.ACACIA_PLANKS::defaultBlockState, BlockBehaviour.Properties.copy (Blocks.ACACIA_PLANKS)));
+            () -> new StairBlock (Blocks.ACACIA_PLANKS::defaultBlockState, BlockBehaviour.Properties.copy (Blocks.ACACIA_PLANKS).mapColor (Blocks.ACACIA_WOOD.defaultMapColor ())));
     public static final RegistryObject<Block> STRIPPED_ACACIA_LOG_STAIRS = registerBlock ("stripped_acacia_log_stairs",
-            () -> new StairBlock (Blocks.ACACIA_PLANKS::defaultBlockState, BlockBehaviour.Properties.copy (Blocks.ACACIA_PLANKS)));
+            () -> new StairBlock (Blocks.ACACIA_PLANKS::defaultBlockState, BlockBehaviour.Properties.copy (Blocks.ACACIA_PLANKS).mapColor (Blocks.STRIPPED_ACACIA_WOOD.defaultMapColor ())));
     public static final RegistryObject<Block> ACACIA_LOG_SLAB = registerBlock ("acacia_log_slab",
-            () -> new SlabBlock (BlockBehaviour.Properties.copy (Blocks.ACACIA_PLANKS)));
+            () -> new SlabBlock (BlockBehaviour.Properties.copy (Blocks.ACACIA_PLANKS).mapColor (Blocks.ACACIA_WOOD.defaultMapColor ())));
     public static final RegistryObject<Block> STRIPPED_ACACIA_LOG_SLAB = registerBlock ("stripped_acacia_log_slab",
-            () -> new SlabBlock (BlockBehaviour.Properties.copy (Blocks.ACACIA_PLANKS)));
+            () -> new SlabBlock (BlockBehaviour.Properties.copy (Blocks.ACACIA_PLANKS).mapColor (Blocks.STRIPPED_ACACIA_WOOD.defaultMapColor ())));
 
     public static final RegistryObject<Block> JUNGLE_PLANKS_WALL = registerBlock ("jungle_planks_wall",
             () -> new WallBlock (BlockBehaviour.Properties.copy (Blocks.JUNGLE_PLANKS)));
     public static final RegistryObject<Block> JUNGLE_LOG_WALL = registerBlock ("jungle_log_wall",
-            () -> new WallBlock (BlockBehaviour.Properties.copy (Blocks.JUNGLE_PLANKS)));
+            () -> new WallBlock (BlockBehaviour.Properties.copy (Blocks.JUNGLE_PLANKS).mapColor (Blocks.JUNGLE_WOOD.defaultMapColor ())));
     public static final RegistryObject<Block> STRIPPED_JUNGLE_LOG_WALL = registerBlock ("stripped_jungle_log_wall",
-            () -> new WallBlock (BlockBehaviour.Properties.copy (Blocks.JUNGLE_PLANKS)));
+            () -> new WallBlock (BlockBehaviour.Properties.copy (Blocks.JUNGLE_PLANKS).mapColor (Blocks.JUNGLE_WOOD.defaultMapColor ())));
     public static final RegistryObject<Block> JUNGLE_LOG_STAIRS = registerBlock ("jungle_log_stairs",
-            () -> new StairBlock (Blocks.JUNGLE_PLANKS::defaultBlockState, BlockBehaviour.Properties.copy (Blocks.JUNGLE_PLANKS)));
+            () -> new StairBlock (Blocks.JUNGLE_PLANKS::defaultBlockState, BlockBehaviour.Properties.copy (Blocks.JUNGLE_PLANKS).mapColor (Blocks.JUNGLE_WOOD.defaultMapColor ())));
     public static final RegistryObject<Block> STRIPPED_JUNGLE_LOG_STAIRS = registerBlock ("stripped_jungle_log_stairs",
-            () -> new StairBlock (Blocks.JUNGLE_PLANKS::defaultBlockState, BlockBehaviour.Properties.copy (Blocks.JUNGLE_PLANKS)));
+            () -> new StairBlock (Blocks.JUNGLE_PLANKS::defaultBlockState, BlockBehaviour.Properties.copy (Blocks.JUNGLE_PLANKS).mapColor (Blocks.STRIPPED_JUNGLE_WOOD.defaultMapColor ())));
     public static final RegistryObject<Block> JUNGLE_LOG_SLAB = registerBlock ("jungle_log_slab",
-            () -> new SlabBlock (BlockBehaviour.Properties.copy (Blocks.JUNGLE_PLANKS)));
+            () -> new SlabBlock (BlockBehaviour.Properties.copy (Blocks.JUNGLE_PLANKS).mapColor (Blocks.JUNGLE_WOOD.defaultMapColor ())));
     public static final RegistryObject<Block> STRIPPED_JUNGLE_LOG_SLAB = registerBlock ("stripped_jungle_log_slab",
-            () -> new SlabBlock (BlockBehaviour.Properties.copy (Blocks.JUNGLE_PLANKS)));
+            () -> new SlabBlock (BlockBehaviour.Properties.copy (Blocks.JUNGLE_PLANKS).mapColor (Blocks.STRIPPED_JUNGLE_WOOD.defaultMapColor ())));
 
     public static final RegistryObject<Block> MANGROVE_PLANKS_WALL = registerBlock ("mangrove_planks_wall",
             () -> new WallBlock (BlockBehaviour.Properties.copy (Blocks.MANGROVE_PLANKS)));
     public static final RegistryObject<Block> MANGROVE_LOG_WALL = registerBlock ("mangrove_log_wall",
-            () -> new WallBlock (BlockBehaviour.Properties.copy (Blocks.MANGROVE_PLANKS)));
+            () -> new WallBlock (BlockBehaviour.Properties.copy (Blocks.MANGROVE_PLANKS).mapColor (Blocks.MANGROVE_WOOD.defaultMapColor ())));
     public static final RegistryObject<Block> STRIPPED_MANGROVE_LOG_WALL = registerBlock ("stripped_mangrove_log_wall",
-            () -> new WallBlock (BlockBehaviour.Properties.copy (Blocks.MANGROVE_PLANKS)));
+            () -> new WallBlock (BlockBehaviour.Properties.copy (Blocks.MANGROVE_PLANKS).mapColor (Blocks.MANGROVE_WOOD.defaultMapColor ())));
     public static final RegistryObject<Block> MANGROVE_LOG_STAIRS = registerBlock ("mangrove_log_stairs",
-            () -> new StairBlock (Blocks.MANGROVE_PLANKS::defaultBlockState, BlockBehaviour.Properties.copy (Blocks.MANGROVE_PLANKS)));
+            () -> new StairBlock (Blocks.MANGROVE_PLANKS::defaultBlockState, BlockBehaviour.Properties.copy (Blocks.MANGROVE_PLANKS).mapColor (Blocks.MANGROVE_WOOD.defaultMapColor ())));
     public static final RegistryObject<Block> STRIPPED_MANGROVE_LOG_STAIRS = registerBlock ("stripped_mangrove_log_stairs",
-            () -> new StairBlock (Blocks.MANGROVE_PLANKS::defaultBlockState, BlockBehaviour.Properties.copy (Blocks.MANGROVE_PLANKS)));
+            () -> new StairBlock (Blocks.MANGROVE_PLANKS::defaultBlockState, BlockBehaviour.Properties.copy (Blocks.MANGROVE_PLANKS).mapColor (Blocks.STRIPPED_MANGROVE_WOOD.defaultMapColor ())));
     public static final RegistryObject<Block> MANGROVE_LOG_SLAB = registerBlock ("mangrove_log_slab",
-            () -> new SlabBlock (BlockBehaviour.Properties.copy (Blocks.MANGROVE_PLANKS)));
+            () -> new SlabBlock (BlockBehaviour.Properties.copy (Blocks.MANGROVE_PLANKS).mapColor (Blocks.MANGROVE_WOOD.defaultMapColor ())));
     public static final RegistryObject<Block> STRIPPED_MANGROVE_LOG_SLAB = registerBlock ("stripped_mangrove_log_slab",
-            () -> new SlabBlock (BlockBehaviour.Properties.copy (Blocks.MANGROVE_PLANKS)));
+            () -> new SlabBlock (BlockBehaviour.Properties.copy (Blocks.MANGROVE_PLANKS).mapColor (Blocks.STRIPPED_MANGROVE_WOOD.defaultMapColor ())));
 
     public static final RegistryObject<Block> BAMBOO_PLANKS_WALL = registerBlock ("bamboo_planks_wall",
             () -> new WallBlock (BlockBehaviour.Properties.copy (Blocks.BAMBOO_PLANKS)));
     public static final RegistryObject<Block> BAMBOO_BLOCK_WALL = registerBlock ("bamboo_block_wall",
-            () -> new WallBlock (BlockBehaviour.Properties.copy (Blocks.BAMBOO_PLANKS)));
+            () -> new WallBlock (BlockBehaviour.Properties.copy (Blocks.BAMBOO_PLANKS).mapColor (Blocks.BAMBOO_BLOCK.defaultMapColor ())));
     public static final RegistryObject<Block> STRIPPED_BAMBOO_BLOCK_WALL = registerBlock ("stripped_bamboo_block_wall",
-            () -> new WallBlock (BlockBehaviour.Properties.copy (Blocks.BAMBOO_PLANKS)));
+            () -> new WallBlock (BlockBehaviour.Properties.copy (Blocks.BAMBOO_PLANKS).mapColor (Blocks.BAMBOO_BLOCK.defaultMapColor ())));
     public static final RegistryObject<Block> BAMBOO_BLOCK_STAIRS = registerBlock ("bamboo_block_stairs",
-            () -> new StairBlock (Blocks.BAMBOO_PLANKS::defaultBlockState, BlockBehaviour.Properties.copy (Blocks.BAMBOO_PLANKS)));
+            () -> new StairBlock (Blocks.BAMBOO_PLANKS::defaultBlockState, BlockBehaviour.Properties.copy (Blocks.BAMBOO_PLANKS).mapColor (Blocks.BAMBOO_BLOCK.defaultMapColor ())));
     public static final RegistryObject<Block> STRIPPED_BAMBOO_BLOCK_STAIRS = registerBlock ("stripped_bamboo_block_stairs",
-            () -> new StairBlock (Blocks.BAMBOO_PLANKS::defaultBlockState, BlockBehaviour.Properties.copy (Blocks.BAMBOO_PLANKS)));
+            () -> new StairBlock (Blocks.BAMBOO_PLANKS::defaultBlockState, BlockBehaviour.Properties.copy (Blocks.BAMBOO_PLANKS).mapColor (Blocks.STRIPPED_BAMBOO_BLOCK.defaultMapColor ())));
     public static final RegistryObject<Block> BAMBOO_BLOCK_SLAB = registerBlock ("bamboo_block_slab",
-            () -> new SlabBlock (BlockBehaviour.Properties.copy (Blocks.BAMBOO_PLANKS)));
+            () -> new SlabBlock (BlockBehaviour.Properties.copy (Blocks.BAMBOO_PLANKS).mapColor (Blocks.BAMBOO_BLOCK.defaultMapColor ())));
     public static final RegistryObject<Block> STRIPPED_BAMBOO_BLOCK_SLAB = registerBlock ("stripped_bamboo_block_slab",
-            () -> new SlabBlock (BlockBehaviour.Properties.copy (Blocks.BAMBOO_PLANKS)));
+            () -> new SlabBlock (BlockBehaviour.Properties.copy (Blocks.BAMBOO_PLANKS).mapColor (Blocks.STRIPPED_BAMBOO_BLOCK.defaultMapColor ())));
 
     public static final RegistryObject<Block> WARPED_PLANKS_WALL = registerBlock ("warped_planks_wall",
             () -> new WallBlock (BlockBehaviour.Properties.copy (Blocks.WARPED_PLANKS)));
     public static final RegistryObject<Block> WARPED_STEM_WALL = registerBlock ("warped_stem_wall",
-            () -> new WallBlock (BlockBehaviour.Properties.copy (Blocks.WARPED_PLANKS)));
+            () -> new WallBlock (BlockBehaviour.Properties.copy (Blocks.WARPED_PLANKS).mapColor (Blocks.WARPED_STEM.defaultMapColor ())));
     public static final RegistryObject<Block> STRIPPED_WARPED_STEM_WALL = registerBlock ("stripped_warped_stem_wall",
-            () -> new WallBlock (BlockBehaviour.Properties.copy (Blocks.WARPED_PLANKS)));
+            () -> new WallBlock (BlockBehaviour.Properties.copy (Blocks.WARPED_PLANKS).mapColor (Blocks.WARPED_STEM.defaultMapColor ())));
     public static final RegistryObject<Block> WARPED_STEM_STAIRS = registerBlock ("warped_stem_stairs",
-            () -> new StairBlock (Blocks.WARPED_PLANKS::defaultBlockState, BlockBehaviour.Properties.copy (Blocks.WARPED_PLANKS)));
+            () -> new StairBlock (Blocks.WARPED_PLANKS::defaultBlockState, BlockBehaviour.Properties.copy (Blocks.WARPED_PLANKS).mapColor (Blocks.WARPED_STEM.defaultMapColor ())));
     public static final RegistryObject<Block> STRIPPED_WARPED_STEM_STAIRS = registerBlock ("stripped_warped_stem_stairs",
-            () -> new StairBlock (Blocks.WARPED_PLANKS::defaultBlockState, BlockBehaviour.Properties.copy (Blocks.WARPED_PLANKS)));
+            () -> new StairBlock (Blocks.WARPED_PLANKS::defaultBlockState, BlockBehaviour.Properties.copy (Blocks.WARPED_PLANKS).mapColor (Blocks.STRIPPED_WARPED_STEM.defaultMapColor ())));
     public static final RegistryObject<Block> WARPED_STEM_SLAB = registerBlock ("warped_stem_slab",
-            () -> new SlabBlock (BlockBehaviour.Properties.copy (Blocks.WARPED_PLANKS)));
+            () -> new SlabBlock (BlockBehaviour.Properties.copy (Blocks.WARPED_PLANKS).mapColor (Blocks.WARPED_STEM.defaultMapColor ())));
     public static final RegistryObject<Block> STRIPPED_WARPED_STEM_SLAB = registerBlock ("stripped_warped_stem_slab",
-            () -> new SlabBlock (BlockBehaviour.Properties.copy (Blocks.WARPED_PLANKS)));
+            () -> new SlabBlock (BlockBehaviour.Properties.copy (Blocks.WARPED_PLANKS).mapColor (Blocks.STRIPPED_WARPED_STEM.defaultMapColor ())));
 
     public static final RegistryObject<Block> CRIMSON_PLANKS_WALL = registerBlock ("crimson_planks_wall",
             () -> new WallBlock (BlockBehaviour.Properties.copy (Blocks.CRIMSON_PLANKS)));
     public static final RegistryObject<Block> CRIMSON_STEM_WALL = registerBlock ("crimson_stem_wall",
-            () -> new WallBlock (BlockBehaviour.Properties.copy (Blocks.CRIMSON_PLANKS)));
+            () -> new WallBlock (BlockBehaviour.Properties.copy (Blocks.CRIMSON_PLANKS).mapColor (Blocks.CRIMSON_STEM.defaultMapColor ())));
     public static final RegistryObject<Block> STRIPPED_CRIMSON_STEM_WALL = registerBlock ("stripped_crimson_stem_wall",
-            () -> new WallBlock (BlockBehaviour.Properties.copy (Blocks.CRIMSON_PLANKS)));
+            () -> new WallBlock (BlockBehaviour.Properties.copy (Blocks.CRIMSON_PLANKS).mapColor (Blocks.CRIMSON_STEM.defaultMapColor ())));
     public static final RegistryObject<Block> CRIMSON_STEM_STAIRS = registerBlock ("crimson_stem_stairs",
-            () -> new StairBlock (Blocks.CRIMSON_PLANKS::defaultBlockState,BlockBehaviour.Properties.copy (Blocks.CRIMSON_PLANKS)));
+            () -> new StairBlock (Blocks.CRIMSON_PLANKS::defaultBlockState,BlockBehaviour.Properties.copy (Blocks.CRIMSON_PLANKS).mapColor (Blocks.CRIMSON_STEM.defaultMapColor ())));
     public static final RegistryObject<Block> STRIPPED_CRIMSON_STEM_STAIRS = registerBlock ("stripped_crimson_stem_stairs",
-            () -> new StairBlock (Blocks.CRIMSON_PLANKS::defaultBlockState,BlockBehaviour.Properties.copy (Blocks.CRIMSON_PLANKS)));
+            () -> new StairBlock (Blocks.CRIMSON_PLANKS::defaultBlockState,BlockBehaviour.Properties.copy (Blocks.CRIMSON_PLANKS).mapColor (Blocks.STRIPPED_CRIMSON_STEM.defaultMapColor ())));
     public static final RegistryObject<Block> CRIMSON_STEM_SLAB = registerBlock ("crimson_stem_slab",
-            () -> new SlabBlock (BlockBehaviour.Properties.copy (Blocks.CRIMSON_PLANKS)));
+            () -> new SlabBlock (BlockBehaviour.Properties.copy (Blocks.CRIMSON_PLANKS).mapColor (Blocks.CRIMSON_STEM.defaultMapColor ())));
     public static final RegistryObject<Block> STRIPPED_CRIMSON_STEM_SLAB = registerBlock ("stripped_crimson_stem_slab",
-            () -> new SlabBlock (BlockBehaviour.Properties.copy (Blocks.CRIMSON_PLANKS)));
+            () -> new SlabBlock (BlockBehaviour.Properties.copy (Blocks.CRIMSON_PLANKS).mapColor (Blocks.STRIPPED_CRIMSON_STEM.defaultMapColor ())));
     
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
